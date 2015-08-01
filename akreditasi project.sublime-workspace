@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
 				"Selesai",
 				"selesai"
 			],
@@ -27,6 +35,78 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "resources/views/layouts/default.blade.php",
+			"settings":
+			{
+				"buffer_size": 452,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/layouts/login.blade.php",
+			"settings":
+			{
+				"buffer_size": 389,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/page/login.blade.php",
+			"settings":
+			{
+				"buffer_size": 1121,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/assets/css/materialize.css",
+			"settings":
+			{
+				"buffer_size": 189083,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 741,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Pertanyaan.php",
+			"settings":
+			{
+				"buffer_size": 164,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/PertanyaanController.php",
+			"settings":
+			{
+				"buffer_size": 1534,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/page/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 852,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/app.php",
+			"settings":
+			{
+				"buffer_size": 8254,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -35,7 +115,15 @@
 		"selected_items":
 		[
 			[
+				"Snippet:html",
+				"Snippet: m-template-html"
+			],
+			[
 				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -47,7 +135,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 472.0
+		"width": 885.0
 	},
 	"console":
 	{
@@ -64,6 +152,24 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/akreditasi/config/database.php",
+		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/soal.php",
+		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/Controller.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/includes/header.blade.php",
+		"/C/xampp/htdocs/akreditasi/public/assets/css/custom.css",
+		"/C/xampp/htdocs/rapor/app/views/includes/sidebar.blade.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/page/change_password.blade.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/page/home.blade.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/page/login.blade.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/includes/head.blade.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/includes/footer.blade.php",
+		"/C/xampp/htdocs/akreditasi/app/Http/routes.php",
+		"/C/xampp/htdocs/akreditasi/public/assets/css/icon.css",
+		"/C/xampp/htdocs/akreditasi/public/assets/css/materialize.min.css",
+		"/C/xampp/htdocs/akreditasi/public/assets/css/materialize.css",
+		"/C/xampp/htdocs/akreditasi/public/assets/font/material-design-icons/Material-Design-Icons.woff2",
+		"/C/xampp/htdocs/akreditasi/resources/assets/css/icon.css",
+		"/C/Users/notDayPC/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/xampp/htdocs/jelajahpurbalingga/www/css/style.css",
 		"/C/xampp/htdocs/jelajahpurbalingga/www/lib/ionic/scss/custom.scss",
 		"/C/xampp/htdocs/HulaaWeb/hulaawebproject.sublime-project",
@@ -129,7 +235,6 @@
 		"/C/xampp/htdocs/HulaaWeb/src/main/scala/com/hulaa/web/db/service/SecurityService.scala",
 		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_filter.scala.html",
 		"/C/xampp/htdocs/HulaaWeb/src/main/webapp/resources/css/bootstrap.css",
-		"/C/Users/notDayPC/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/xampp/htdocs/HulaaWeb/.sass-cache/a85ac62684f4c9fe9b7f35c6cd9091c053295217/bootstrap.scssc",
 		"/C/Users/notDayPC/.ssh/id_rsa.pub"
 	],
@@ -149,6 +254,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pagination",
+			"Route::get('/', function () {\n    return view('page.home');\n});",
+			"check-",
+			"marker-check",
+			"action-lock",
+			"lock",
+			"vpn",
+			"mdi-",
+			"Material-design",
+			"icon",
+			"font",
+			"Penilaian",
 			"ionic",
 			"kirimkan",
 			"belum diterima",
@@ -256,7 +373,7 @@
 		"replace_history":
 		[
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -265,14 +382,260 @@
 	"groups":
 	[
 		{
+			"selected": 6,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "resources/views/layouts/default.blade.php",
+					"settings":
+					{
+						"buffer_size": 452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/layouts/login.blade.php",
+					"settings":
+					{
+						"buffer_size": 389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/page/login.blade.php",
+					"settings":
+					{
+						"buffer_size": 1121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								352,
+								342
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/assets/css/materialize.css",
+					"settings":
+					{
+						"buffer_size": 189083,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104923,
+								104929
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 74778.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Http/routes.php",
+					"settings":
+					{
+						"buffer_size": 741,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Pertanyaan.php",
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/Http/Controllers/PertanyaanController.php",
+					"settings":
+					{
+						"buffer_size": 1534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								383,
+								383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "resources/views/page/home.blade.php",
+					"settings":
+					{
+						"buffer_size": 852,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								812,
+								809
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 30.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "config/app.php",
+					"settings":
+					{
+						"buffer_size": 8254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4824,
+								4834
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1705.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -311,6 +674,50 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"configapp",
+				"config/app.php"
+			],
+			[
+				"home",
+				"resources/views/page/home.blade.php"
+			],
+			[
+				"pertanya",
+				"app/Pertanyaan.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"per",
+				"app/pertanyaan.php"
+			],
+			[
+				"materia",
+				"public/assets/css/materialize.css"
+			],
+			[
+				"icon",
+				"public/assets/css/icon.css"
+			],
+			[
+				"footer",
+				"resources/views/includes/footer.blade.php"
+			],
+			[
+				"head",
+				"resources/views/includes/head.blade.php"
+			],
+			[
+				"header",
+				"resources/views/includes/header.blade.php"
+			],
+			[
+				"default",
+				"resources/views/layouts/default.blade.php"
+			],
 			[
 				"gul",
 				"gulpfile.js"

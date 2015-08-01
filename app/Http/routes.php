@@ -12,5 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('layouts.default');
+    return view('page.home');
+});
+
+Route::get('/pertanyaan', 'PertanyaanController@index');
+
+Route::get('/login', function () {
+    return view('page.login');
+});
+Route::get('/newpass', function () {
+    return view('page.change_password');
+});
+Route::get('/asesor', function () {
+    return view('page.asesor');
 });

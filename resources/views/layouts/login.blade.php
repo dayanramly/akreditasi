@@ -4,14 +4,9 @@
 	<title>Sistem Akreditasi - @yield('title')</title>
     @include('includes.head')
 </head>
-<body>
-	<header>
-		<!-- header here -->
-    	@include('includes.header')
-    </header>
-
-    <div class="container body-content">
-    	<div class="row">
+<body class="orange darken-1">
+    <div class="container">
+    	<div class="row center">
     	<!-- main content here -->
     	@yield('content')
     	</div>
