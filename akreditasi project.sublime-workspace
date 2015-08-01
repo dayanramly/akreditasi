@@ -1,0 +1,507 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Selesai",
+				"selesai"
+			],
+			[
+				"uns",
+				"unsuccessful"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"backgro",
+				"background-position"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/jelajahpurbalingga/www/css/style.css",
+		"/C/xampp/htdocs/jelajahpurbalingga/www/lib/ionic/scss/custom.scss",
+		"/C/xampp/htdocs/HulaaWeb/hulaawebproject.sublime-project",
+		"/C/xampp/htdocs/serverjelajah/composer.json",
+		"/C/xampp/htdocs/jelajahpurbalingga/scss/ionic.app.scss",
+		"/C/xampp/htdocs/jelajahpurbalingga/gulpfile.js",
+		"/C/xampp/htdocs/jelajahpurbalingga/package.json",
+		"/C/xampp/htdocs/jelajahpurbalingga/ionic.project",
+		"/C/xampp/htdocs/HulaaWeb/src/main/webapp/resources/uncompiled/scss/vendor/mobile/mobile-portrait.scss",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_three.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/scala/com/hulaa/web/config/SecurityConfig.scala",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_search.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/resources/i18n/messages_in.properties",
+		"/C/xampp/htdocs/HulaaWeb/target/scala-2.11/classes/i18n/messages.properties",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_three_bankconfirm.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_four.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_one.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_two.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_threecc.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_threebank.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_one_data.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/scala/com/hulaa/web/servlet/DevTestServlet.scala",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_detail.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_search.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/layouts/partials/mobile/header.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/layouts/partials/mobile/sidebar.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/web/layouts/partials/header.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/web/layouts/partials/footer.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_blank.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/webapp/resources/css/hulaa-mobile-1.0.0.css",
+		"/C/xampp/htdocs/HulaaWeb/src/main/webapp/resources/css/mobile/mobile-datepicker.css",
+		"/D/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobileversion.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobileversion.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_booking_threecc.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/bookings/BookingPage.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/layouts/partials/mobile/head.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/web/pages/HotelDetailPage.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/webapp/resources/js/mobile/jquery-ui.min.js",
+		"/F/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.min.js",
+		"/F/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.js",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/layouts/partials/mobile/footer.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/layouts/MobileLayout.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/webapp/resources/js/angular.js",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/layouts/partials/mobile/sidebar-menu.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/webapp/resources/uncompiled/scss/vendor/mobile/default.date.scss",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_date_departure.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/webapp/resources/uncompiled/scss/main-mobile.scss",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_foureticket.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_booking_four.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/resources/i18n/messages.properties",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_booking_two.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/node_modules/gulp-include/node_modules/event-stream/test/helper/index.js",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_booking_one.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_booking_three_bankconfirm.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_booking_three.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_booking_threebank.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/target/scala-2.11/resource_managed/main/webapp/resources/uncompiled/scss/mobile.scss",
+		"/C/xampp/htdocs/HulaaWeb/target/scala-2.11/resource_managed/main/webapp/resources/css/mobile/mobile-style.scss",
+		"/F/pickadate.js-3.5.6/pickadate.js-3.5.6/lib/themes-source/default.less",
+		"/C/xampp/htdocs/HulaaWeb/src/main/webapp/resources/uncompiled/scss/mobile.scss",
+		"/D/xampp/htdocs/wquiz/index.php",
+		"/D/xampp/htdocs/singlepage/style.css",
+		"/C/xampp/htdocs/HulaaWeb/src/main/scala/com/hulaa/web/db/service/SecurityService.scala",
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_filter.scala.html",
+		"/C/xampp/htdocs/HulaaWeb/src/main/webapp/resources/css/bootstrap.css",
+		"/C/Users/notDayPC/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/HulaaWeb/.sass-cache/a85ac62684f4c9fe9b7f35c6cd9091c053295217/bootstrap.scssc",
+		"/C/Users/notDayPC/.ssh/id_rsa.pub"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ionic",
+			"kirimkan",
+			"belum diterima",
+			"hubungi",
+			"Silakan hubungi customer service Hulaa +62 813 1630 1436 / +62 812 8864 9128 atau email ke cs@@hulaa.com",
+			"booking unsucces",
+			"eticket",
+			"E-tiket akan kami kirimkan ke email Anda",
+			"Pemesanan anda",
+			"gagal",
+			"Pemesanan anda",
+			"Maaf pemesanan",
+			"Eticket",
+			"Maaf Pemesanan",
+			"Kode Booking",
+			"Terima Kasih atas",
+			"Pembayaran anda ",
+			"Pembayaran Anda sedang diverifikasi",
+			"E-ticket",
+			"E-Ticket",
+			"E-Tiket",
+			"Selesai",
+			"Silakan isi data kartu kredit Anda sebagai berikut:",
+			"transfer.a",
+			"Pembayaran dengan",
+			"Pembayaran dengan transfer bank/ATM dapat dilakukan dengan rekening bank sebagai berikut:",
+			"KOnfirmasi",
+			"Silakan mengisi form sesuai",
+			"Sisa waktu",
+			"Sis",
+			"Tanggal Lahir",
+			"12",
+			"Data Penumpang",
+			"get(\"/mobile/flight/booking/one\"){\n  dummy.html.Mobile_flight_booking_one(\"Mobile_version\")\n}  ",
+			"room.total",
+			"TOTAL",
+			"Lanjutkan",
+			"baggage",
+			"Data Penumpang",
+			"baggage",
+			"Keberangkatan",
+			"Detail Pemesanan",
+			"Batal",
+			"pesan",
+			"Sudah termasuk biaya pajak dan service",
+			"Pemesanan tidak bisa dibatalkan",
+			"Ubah Tanggal",
+			"waktu",
+			"Maskapai",
+			"Penerbangan Pulang",
+			"Penerbangan Pergi",
+			"Tentang kami",
+			"login",
+			"filter-option-tab",
+			"text",
+			"list-detail-hotel",
+			"list-detail-hotel\"",
+			".list-detail-hotel",
+			"home-tabs",
+			"price-hotel-rrom",
+			"col-4",
+			".button-book-flight",
+			"list-hotel-container",
+			"home-tabs",
+			"home-tab-custom",
+			".hotel-detail-tabs{\n  display: flex !important;\n  display:-moz-flex !important;\n  display:-o-flex !important;\n  display:-webkit-flex !important;\n  width: 100%;\n  padding: 0% 2%;\n  background: #DDD;\n  height: 40px;\n  margin: 0;\n  li{\n    list-style: none;\n    width: 32%;\n    height: 100%;\n    text-align: center;\n    a{\n      text-decoration: none;\n      position: relative;\n      display: block;\n      padding: 11px 15px;\n      line-height: 1.42857143;\n      font-size:10pt;\n      color: #555;\n    }\n  }\n  li.active{\n    background: #eaeaea;\n  }\n}",
+			"hotel-detail-tabs",
+			"container-dialog",
+			"script",
+			"form-flight",
+			"page__background",
+			"body-wrapper",
+			"page.html",
+			".row",
+			"*@",
+			"@*",
+			"page-content",
+			"picker__box",
+			"picker__input",
+			"picker__day",
+			"day",
+			"tanggal pergi",
+			"total-price",
+			"review-hotel-detail",
+			"hotel-detail-desc",
+			"detail-hotel-desc",
+			"review-hotel-detail",
+			"flight-booking",
+			"row-book-data",
+			"mobile",
+			"        \"/test/mobile/flight/booking/one\",\n        \"/test/mobile/flight/booking/onedata\",\n        \"/test/mobile/flight/booking/two\",\n        \"/test/mobile/flight/booking/three\",\n        \"/test/mobile/flight/booking/threebank\",\n        \"/test/mobile/flight/booking/threecc\",\n        \"/test/mobile/flight/booking/threeconfirm\",\n        \"/test/mobile/flight/booking/four\",\n        \"/test/mobile/flight/booking/foureticket\",",
+			"background",
+			"flight-booking",
+			"booking-remaining-time",
+			"filter-booking-tab",
+			"flight-booking",
+			".row",
+			"important",
+			"offset"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"ionic.app",
+				"scss/ionic.app.scss"
+			],
+			[
+				"securi",
+				"src/main/scala/com/hulaa/web/config/SecurityConfig.scala"
+			],
+			[
+				"devtes",
+				"src/main/scala/com/hulaa/web/servlet/DevTestServlet.scala"
+			],
+			[
+				"devtest",
+				"src/main/scala/com/hulaa/web/servlet/DevTestServlet.scala"
+			],
+			[
+				"messages",
+				"target/scala-2.11/classes/i18n/messages.properties"
+			],
+			[
+				"bookingtwo",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_two.scala.html"
+			],
+			[
+				"threecc",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_threecc.scala.html"
+			],
+			[
+				"threebankconfir",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_three_bankconfirm.scala.html"
+			],
+			[
+				"threebank",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_threebank.scala.html"
+			],
+			[
+				"bookingone",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_one.scala.html"
+			],
+			[
+				"sidebar",
+				"src/main/twirl/com/hulaa/flight/layouts/partials/mobile/sidebar.scala.html"
+			],
+			[
+				"hulaamobile",
+				"src/main/webapp/resources/css/hulaa-mobile-1.0.0.css"
+			],
+			[
+				"mobilehoteldetail",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_detail.scala.html"
+			],
+			[
+				"hoteldetail",
+				"src/main/twirl/com/hulaa/web/pages/HotelDetailPage.scala.html"
+			],
+			[
+				"mobileversio",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobileversion.scala.html"
+			],
+			[
+				"version",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobileversion.scala.html"
+			],
+			[
+				"head.sca",
+				"src/main/twirl/com/hulaa/flight/layouts/partials/mobile/head.scala.html"
+			],
+			[
+				"mobilevers",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobileversion.scala.html"
+			],
+			[
+				"secur",
+				"src/main/scala/com/hulaa/web/config/SecurityConfig.scala"
+			],
+			[
+				"hotelfour",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_booking_four.scala.html"
+			],
+			[
+				"foureticket",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_foureticket.scala.html"
+			],
+			[
+				"flightfour",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_four.scala.html"
+			],
+			[
+				"devte",
+				"src/main/scala/com/hulaa/web/servlet/DevTestServlet.scala"
+			],
+			[
+				"mobiledetail",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_detail.scala.html"
+			],
+			[
+				"hoteltwo",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_booking_two.scala.html"
+			],
+			[
+				"devser/",
+				"node_modules/gulp-include/node_modules/event-stream/test/helper/index.js"
+			],
+			[
+				"flightsearch",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_search.scala.html"
+			],
+			[
+				"mobiletwo",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_two.scala.html"
+			],
+			[
+				"mobilehoteldetai",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_detail.scala.html"
+			],
+			[
+				"mobile-port",
+				"src/main/webapp/resources/uncompiled/scss/vendor/mobile/mobile-portrait.scss"
+			],
+			[
+				"mobilehotel",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_hotel_booking_one.scala.html"
+			],
+			[
+				"mobilesearch",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_search.scala.html"
+			],
+			[
+				"securit",
+				"src/main/scala/com/hulaa/web/config/SecurityConfig.scala"
+			],
+			[
+				"mobilescss",
+				"target/scala-2.11/resource_managed/main/webapp/resources/uncompiled/scss/mobile.scss"
+			],
+			[
+				"mobile",
+				"target/scala-2.11/resource_managed/main/webapp/resources/css/mobile/mobile-style.scss"
+			],
+			[
+				"securir",
+				"src/main/scala/com/hulaa/web/db/service/SecurityService.scala"
+			],
+			[
+				"security",
+				"src/main/scala/com/hulaa/web/config/SecurityConfig.scala"
+			],
+			[
+				"bookingfour",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_foureticket.scala.html"
+			],
+			[
+				"bookingthree",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_three_bankconfirm.scala.html"
+			],
+			[
+				"bootst",
+				"src/main/webapp/resources/css/bootstrap.css"
+			],
+			[
+				"",
+				"src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_booking_two.scala.html"
+			],
+			[
+				"mob",
+				"src/main/webapp/resources/uncompiled/scss/mobile.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/xampp/htdocs/jelajahpurbalingga/jelajah purbalingga.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true
+}
