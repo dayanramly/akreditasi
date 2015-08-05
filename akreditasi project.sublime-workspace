@@ -60,14 +60,6 @@
 			}
 		},
 		{
-			"file": "public/assets/css/materialize.css",
-			"settings":
-			{
-				"buffer_size": 189083,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/Http/routes.php",
 			"settings":
 			{
@@ -95,16 +87,16 @@
 			"file": "resources/views/page/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 852,
+				"buffer_size": 4859,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "config/app.php",
+			"file": "resources/views/includes/header.blade.php",
 			"settings":
 			{
-				"buffer_size": 8254,
-				"line_ending": "Unix"
+				"buffer_size": 1636,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -152,21 +144,22 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/akreditasi/public/assets/css/materialize.css",
+		"/C/xampp/htdocs/akreditasi/config/app.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/includes/footer.blade.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/includes/header.blade.php",
 		"/C/xampp/htdocs/akreditasi/config/database.php",
 		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/soal.php",
 		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/Controller.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/includes/header.blade.php",
 		"/C/xampp/htdocs/akreditasi/public/assets/css/custom.css",
 		"/C/xampp/htdocs/rapor/app/views/includes/sidebar.blade.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/change_password.blade.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/home.blade.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/login.blade.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/includes/head.blade.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/includes/footer.blade.php",
 		"/C/xampp/htdocs/akreditasi/app/Http/routes.php",
 		"/C/xampp/htdocs/akreditasi/public/assets/css/icon.css",
 		"/C/xampp/htdocs/akreditasi/public/assets/css/materialize.min.css",
-		"/C/xampp/htdocs/akreditasi/public/assets/css/materialize.css",
 		"/C/xampp/htdocs/akreditasi/public/assets/font/material-design-icons/Material-Design-Icons.woff2",
 		"/C/xampp/htdocs/akreditasi/resources/assets/css/icon.css",
 		"/C/Users/notDayPC/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
@@ -254,6 +247,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"		<li>\n			<div class=\"row\">\n				<div class=\"input-field col s12\">\n					<input id=\"tahunberdiri\" type=\"text\" class=\"validate\">\n					<label for=\"tahunberdiri\">Tahun Berdiri Sekolah/Madrasah</label>\n				</div>\n			</div>\n		</li>",
 			"pagination",
 			"Route::get('/', function () {\n    return view('page.home');\n});",
 			"check-",
@@ -470,34 +464,6 @@
 				},
 				{
 					"buffer": 3,
-					"file": "public/assets/css/materialize.css",
-					"settings":
-					{
-						"buffer_size": 189083,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								104923,
-								104929
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 74778.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "app/Http/routes.php",
 					"settings":
 					{
@@ -523,7 +489,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "app/Pertanyaan.php",
 					"settings":
 					{
@@ -549,7 +515,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "app/Http/Controllers/PertanyaanController.php",
 					"settings":
 					{
@@ -560,8 +526,8 @@
 						"selection":
 						[
 							[
-								383,
-								383
+								329,
+								329
 							]
 						],
 						"settings":
@@ -577,55 +543,55 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "resources/views/page/home.blade.php",
 					"settings":
 					{
-						"buffer_size": 852,
+						"buffer_size": 4859,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								812,
-								809
+								4040,
+								4040
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 30.0,
+						"translation.y": 3672.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "config/app.php",
+					"buffer": 7,
+					"file": "resources/views/includes/header.blade.php",
 					"settings":
 					{
-						"buffer_size": 8254,
+						"buffer_size": 1636,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4824,
-								4834
+								1629,
+								1629
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1705.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -675,6 +641,18 @@
 		"selected_items":
 		[
 			[
+				"header",
+				"resources/views/includes/header.blade.php"
+			],
+			[
+				"footer",
+				"resources/views/includes/footer.blade.php"
+			],
+			[
+				"head",
+				"resources/views/includes/header.blade.php"
+			],
+			[
 				"configapp",
 				"config/app.php"
 			],
@@ -701,18 +679,6 @@
 			[
 				"icon",
 				"public/assets/css/icon.css"
-			],
-			[
-				"footer",
-				"resources/views/includes/footer.blade.php"
-			],
-			[
-				"head",
-				"resources/views/includes/head.blade.php"
-			],
-			[
-				"header",
-				"resources/views/includes/header.blade.php"
 			],
 			[
 				"default",
@@ -909,6 +875,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 249.0,
+	"side_bar_width": 103.0,
 	"status_bar_visible": true
 }

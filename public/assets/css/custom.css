@@ -27,3 +27,16 @@
 .new-password button{
   margin-top:15px;
 }
+.table-list tr>td, .table-list th{
+  text-align: center;
+  padding: 3px;
+}
+.status-jawaban p{
+  padding:5px;
+}
+.complete p{
+  color: #64dd17;
+}
+.uncomplete p{
+  color: #f44336;
+}

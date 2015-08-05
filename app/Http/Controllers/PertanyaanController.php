@@ -19,7 +19,7 @@ class PertanyaanController extends Controller
     public function index()
     {
         $data['pertanyaan'] = Pertanyaan::paginate(1);
-        return view('page.home', $data);
+        return view('page.pertanyaan', $data);
     }
 
     /**

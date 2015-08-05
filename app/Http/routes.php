@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('page.home');
 });
 
+$router->get('/isidata', function()
+{
+	return view('page.isi_data');
+});
+
 Route::get('/pertanyaan', 'PertanyaanController@index');
 
 Route::get('/login', function () {
@@ -25,4 +30,7 @@ Route::get('/newpass', function () {
 });
 Route::get('/asesor', function () {
     return view('page.asesor');
+});
+Route::get('/lihathasil', function () {
+    return view('page.lihathasil');
 });
