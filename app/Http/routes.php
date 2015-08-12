@@ -20,6 +20,10 @@ $router->get('/isidata', function()
 	return view('page.isi_data');
 });
 
+Route::get('auth/login', 'LoginController@getLogin');
+Route::post('auth/login', 'LoginController@postLogin');
+Route::get('auth/logout', 'LoginController@getLogout');
+
 Route::get('/pertanyaan', 'PertanyaanController@index');
 
 Route::get('/login', function () {
