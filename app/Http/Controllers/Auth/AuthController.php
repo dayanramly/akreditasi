@@ -1,12 +1,12 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
-
+use Auth;
 use App\User;
-use Validator;
+use Request;
+use App\Http\Requests;
+use app\Http\Requests\LoginRequest;
 use App\Http\Controllers\Controller;
-use Illuminate\Foundation\Auth\ThrottlesLogins;
-use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller
 {
@@ -20,8 +20,6 @@ class AuthController extends Controller
     | a simple trait to add these behaviors. Why don't you explore it?
     |
     */
-
-    use AuthenticatesAndRegistersUsers, ThrottlesLogins;
 
     /**
      * Create a new authentication controller instance.
@@ -39,13 +37,28 @@ class AuthController extends Controller
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
-    protected function validator(array $data)
+    // protected function validator(array $data)
+    // {
+    //     return Validator::make($data, [
+    //         'username' => 'required|max:1',
+    //         'password' => 'required|confirmed|min:6',
+    //         ]);
+    // }
+
+    public function getLogin(){
+
+        return view('page.login');
+    }
+
+    public function postLogin(Request $request)
     {
-        return Validator::make($data, [
-            'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
-            'password' => 'required|confirmed|min:6',
-        ]);
+        return redirect('home');
+    }
+
+    public function getLogout()
+    {
+        Auth::logout();
+        return redirect('login');
     }
 
     /**
@@ -54,12 +67,11 @@ class AuthController extends Controller
      * @param  array  $data
      * @return User
      */
-    protected function create(array $data)
-    {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
-        ]);
-    }
+    // protected function create(array $data)
+    // {
+    //     return User::create([
+    //         'username' => $data['name'],
+    //         'password' => bcrypt($data['password']),
+    //     ]);
+    // }
 }
