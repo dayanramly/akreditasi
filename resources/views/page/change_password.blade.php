@@ -4,7 +4,7 @@
 
 <div class="col s12">
 	<div class="row">
-		<div class="col s6 offset-s3 center">
+		<div class="col s8 offset-s2 center" style="background-color:#fefefe">
 			<div class="new-password z-depth-2 col s12">
 				<form autocomplete="off" method="POST">
 					<div class="s12">
