@@ -24,7 +24,7 @@
 	<div class="row">
 		<div class="col s6 offset-s3 center">
 			<div class="form-login z-depth-3 col s12">
-				<form autocomplete="off" method="POST" action="/auth/login">
+				<form autocomplete="off" method="POST" >
 					{!! csrf_field() !!}
 					<div class="input-field col s12">
 						<i class="mdi-action-account-circle prefix"></i>
