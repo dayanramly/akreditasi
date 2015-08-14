@@ -1,11 +1,10 @@
-<?php
+<?php namespace App\Http\Controllers\Auth;
 
-namespace App\Http\Controllers\Auth;
 use Auth;
 use App\User;
 use Request;
+
 use App\Http\Requests;
-use app\Http\Requests\LoginRequest;
 use App\Http\Controllers\Controller;
 
 class AuthController extends Controller
@@ -37,41 +36,25 @@ class AuthController extends Controller
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
      */
-    // protected function validator(array $data)
-    // {
-    //     return Validator::make($data, [
-    //         'username' => 'required|max:1',
-    //         'password' => 'required|confirmed|min:6',
-    //         ]);
-    // }
 
     public function getLogin(){
-
         return view('page.login');
     }
 
-    public function postLogin(Request $request)
+    public function postLogin(Requests\LoginRequest $request)
     {
-        return redirect('home');
+        $credentials = $request->only('uname', 'password');
+
+        if (Auth::attempt($credentials, $request->has('remember'))) {
+            return redirect()->intended('/');
+        }
+        return redirect('/auth/login');
     }
 
     public function getLogout()
     {
         Auth::logout();
-        return redirect('login');
+        return redirect('/auth/login');
     }
 
-    /**
-     * Create a new user instance after a valid registration.
-     *
-     * @param  array  $data
-     * @return User
-     */
-    // protected function create(array $data)
-    // {
-    //     return User::create([
-    //         'username' => $data['name'],
-    //         'password' => bcrypt($data['password']),
-    //     ]);
-    // }
 }
