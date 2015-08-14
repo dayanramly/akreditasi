@@ -2,7 +2,7 @@
 @section('title', 'Home Page')
 @section('content')
 
-<div class="col s12">
+<div class="col s12" style="font-size:12pt;">
 	{{-- {{$pertanyasan}} --}}
 	@foreach ($pertanyaan as $list_pertanyaan) 
 
@@ -12,9 +12,9 @@
 	?>	
 	<ul style="margin-left: 12px;">
 		@foreach (json_decode($list_pertanyaan->pilihan) as $pilihan)
-		<li>
+		<li style="line-height:2.4;">
 			<input name="jawaban[{{{$list_pertanyaan->id}}}]" type="radio" id="n{{{$list_pertanyaan->id}}}j{{$j}}" /> 
-			<label for="n{{{$list_pertanyaan->id}}}j{{$j++}}">{{{ $pilihan }}}</label>
+			<label for="n{{{$list_pertanyaan->id}}}j{{$j++}}" style="color:#555;">{{{ $pilihan }}}</label>
 		</li>
 		@endforeach
 		<div class="file-field input-field">

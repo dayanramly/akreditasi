@@ -21,26 +21,13 @@
 
 Route::group(['middleware' => 'auth'], function(){
     Route::get('/', 'HomeController@index');    
-    Route::get('/isidata', 'HomeController@index');
+    Route::get('/isidata', 'HomeController@isidata');
 	Route::get('/pertanyaan', 'PertanyaanController@index');
-    Route::get('/newpass', 'HomeController@index');
-    Route::get('/asesor', 'HomeController@index');
-    Route::get('/lihathasil', 'HomeController@index');
+    Route::get('/newpass', 'HomeController@newpass');
+    Route::get('/asesor', 'HomeController@asesor');
+    Route::get('/lihathasil', 'HomeController@lihathasil');
+    Route::get('/user', 'HomeController@user');
 
-	// Route::get('/isidata', function()
-	// {
-	// 	return view('page.isi_data');
-	// });
-
-	// Route::get('/newpass', function () {
-	// 	return view('page.change_password');
-	// });
-	// Route::get('/asesor', function () {
-	// 	return view('page.asesor');
-	// });
-	// Route::get('/lihathasil', function () {
-	// 	return view('page.lihathasil');
-	// });
 });
 
 Route::get('auth/login', 'Auth\AuthController@getLogin');

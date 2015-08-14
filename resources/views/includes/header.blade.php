@@ -10,7 +10,8 @@
 		<ul id="nav-mobile" class="right hide-on-med-and-down">
 			<li><a href="{{URL::to('/pertanyaan')}}"><i class="material-icons left">assessment</i>Pertanyaan</a></li>
 			<li><a href="{{URL::to('/asesor')}}"><i class="material-icons left">supervisor_account</i>Asesor</a></li>
-			<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Welcome, Dayan<i class="material-icons right">arrow_drop_down</i></a></li>
+			<li><a href="{{URL::to('/user')}}"><i class="material-icons left">perm_identity</i>User</a></li>
+			<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Welcome, {{ Auth::user()->uname }}<i class="material-icons right">arrow_drop_down</i></a></li>
 		</ul>
 		<ul class="side-nav" id="mobile-demo">
 			<li><a href="#">Welcome, Dayan</a></li>
