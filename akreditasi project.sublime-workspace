@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"id",
+				"id"
+			],
+			[
+				"Request",
+				"request"
+			],
+			[
 				"ROute",
 				"Route::get	Basic Route with Closure"
 			],
@@ -43,50 +51,63 @@
 			"file": "app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 1062,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/LoginController.php",
-			"settings":
-			{
-				"buffer_size": 1489,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<?php\n\nnamespace App;\n\nuse Illuminate\\Database\\Eloquent\\Model;\n\nclass LoginModel extends Model\n{\n    //\n\n}",
-			"file": "app/LoginModel.php",
-			"file_size": 106,
-			"file_write_time": 130832558278975903,
-			"settings":
-			{
-				"buffer_size": 106,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/page/login.blade.php",
-			"settings":
-			{
-				"buffer_size": 1194,
+				"buffer_size": 1321,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/xampp/htdocs/rekapp/app/Http/Controllers/AuthController.php",
+			"file": "resources/views/page/pertanyaan.blade.php",
 			"settings":
 			{
-				"buffer_size": 849,
+				"buffer_size": 939,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/views/page/isi_data.blade.php",
+			"file": "resources/views/page/user_list.blade.php",
 			"settings":
 			{
-				"buffer_size": 4323,
+				"buffer_size": 831,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/rekapp/resources/views/pages/mahasiswa/mhsList.blade.php",
+			"settings":
+			{
+				"buffer_size": 6773,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/rekapp/app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 1547,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/rekapp/app/Http/Controllers/MahasiswaController.php",
+			"settings":
+			{
+				"buffer_size": 7551,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 1283,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/page/edit_user.blade.php",
+			"settings":
+			{
+				"buffer_size": 1459,
 				"line_ending": "Windows"
 			}
 		}
@@ -135,6 +156,25 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/akreditasi/resources/views/includes/footer.blade.php",
+		"/C/xampp/htdocs/akreditasi/app/Jawaban.php",
+		"/C/xampp/htdocs/akreditasi/app/User.php",
+		"/C/xampp/htdocs/akreditasi/app/Identitas.php",
+		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/PertanyaanController.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/page/asesor.blade.php",
+		"/C/xampp/htdocs/rekapp/resources/views/partials/navbar.blade.php",
+		"/C/xampp/htdocs/akreditasi/app/Http/Requests/LoginRequest.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/includes/header.blade.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/page/change_password.blade.php",
+		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/HomeController.php",
+		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/Auth/AuthController.php",
+		"/C/xampp/htdocs/rekapp/app/Http/Controllers/AuthController.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/page/login.blade.php",
+		"/C/xampp/htdocs/akreditasi/node_modules/laravel-elixir/node_modules/browserify/test/bare.js",
+		"/C/xampp/htdocs/akreditasi/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/page/isi_data.blade.php",
+		"/C/xampp/htdocs/akreditasi/app/LoginModel.php",
+		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/LoginController.php",
 		"/C/xampp/htdocs/rapor/app/controllers/LoginController.php",
 		"/C/xampp/htdocs/npk/wp-content/themes/default-theme/archive.php",
 		"/C/xampp/htdocs/npk/wp-content/themes/default-theme/archieve.php",
@@ -145,25 +185,17 @@
 		"/C/Users/notDayPC/.ssh/id_rsa",
 		"/C/xampp/htdocs/akreditasi/resources/views/layouts/login.blade.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/layouts/default.blade.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/page/asesor.blade.php",
 		"/C/xampp/htdocs/akreditasi/public/assets/css/custom.css",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/lihathasil.blade.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/page/isi_data.blade.php",
-		"/C/xampp/htdocs/rekapp/app/Http/Controllers/AuthController.php",
 		"/C/xampp/htdocs/akreditasi/config/auth.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/home.blade.php",
 		"/C/xampp/htdocs/akreditasi/app/Pertanyaan.php",
-		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/PertanyaanController.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/includes/header.blade.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/page/login.blade.php",
 		"/C/xampp/htdocs/akreditasi/public/assets/css/materialize.css",
 		"/C/xampp/htdocs/akreditasi/config/app.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/includes/footer.blade.php",
 		"/C/xampp/htdocs/akreditasi/config/database.php",
 		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/soal.php",
 		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/Controller.php",
 		"/C/xampp/htdocs/rapor/app/views/includes/sidebar.blade.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/page/change_password.blade.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/includes/head.blade.php",
 		"/C/xampp/htdocs/akreditasi/app/Http/routes.php",
 		"/C/xampp/htdocs/akreditasi/public/assets/css/icon.css",
@@ -254,6 +286,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"list_pertanyaan",
+			"<?",
+			"MhsList",
+			"mhsList",
+			"mhs",
+			"user",
+			"mhs",
+			"user",
+			"    public function lihathasil()\n    {\n        return view('page.lihathasil');\n    }",
+			"');\n",
 			"auth",
 			"}\n",
 			"protec",
@@ -372,7 +414,7 @@
 			"offset"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -387,7 +429,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -395,20 +437,47 @@
 					"file": "app/Http/routes.php",
 					"settings":
 					{
-						"buffer_size": 1062,
+						"buffer_size": 1321,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								293,
-								293
+								1106,
+								1092
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 105.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/page/pertanyaan.blade.php",
+					"settings":
+					{
+						"buffer_size": 939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -417,19 +486,74 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/Http/Controllers/LoginController.php",
+					"buffer": 2,
+					"file": "resources/views/page/user_list.blade.php",
 					"settings":
 					{
-						"buffer_size": 1489,
+						"buffer_size": 831,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								471,
-								471
+								762,
+								762
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 15.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/xampp/htdocs/rekapp/resources/views/pages/mahasiswa/mhsList.blade.php",
+					"settings":
+					{
+						"buffer_size": 6773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1919,
+								1919
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 172.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/xampp/htdocs/rekapp/app/Http/routes.php",
+					"settings":
+					{
+						"buffer_size": 1547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								555,
+								555
 							]
 						],
 						"settings":
@@ -439,104 +563,81 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 75.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/LoginModel.php",
-					"settings":
-					{
-						"buffer_size": 106,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								105,
-								105
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resources/views/page/login.blade.php",
-					"settings":
-					{
-						"buffer_size": 1194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								487,
-								487
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/xampp/htdocs/rekapp/app/Http/Controllers/AuthController.php",
-					"settings":
-					{
-						"buffer_size": 849,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								843,
-								753
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "resources/views/page/isi_data.blade.php",
+					"file": "/C/xampp/htdocs/rekapp/app/Http/Controllers/MahasiswaController.php",
 					"settings":
 					{
-						"buffer_size": 4323,
+						"buffer_size": 7551,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1672,
-								1672
+								2533,
+								2533
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/Http/Controllers/HomeController.php",
+					"settings":
+					{
+						"buffer_size": 1283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1283,
+								1283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "resources/views/page/edit_user.blade.php",
+					"settings":
+					{
+						"buffer_size": 1459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								986,
+								978
 							]
 						],
 						"settings":
@@ -545,7 +646,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 682.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -595,6 +696,42 @@
 		"selected_items":
 		[
 			[
+				"footer",
+				"akreditasi/resources/views/includes/footer.blade.php"
+			],
+			[
+				"asesor",
+				"akreditasi/resources/views/page/asesor.blade.php"
+			],
+			[
+				"homecont",
+				"akreditasi/app/Http/Controllers/HomeController.php"
+			],
+			[
+				"mahasiswa",
+				"rekapp/app/Http/Controllers/MahasiswaController.php"
+			],
+			[
+				"route",
+				"rekapp/app/Http/routes.php"
+			],
+			[
+				"header",
+				"akreditasi/resources/views/includes/header.blade.php"
+			],
+			[
+				"navbar",
+				"akreditasi/node_modules/laravel-elixir/node_modules/browserify/test/bare.js"
+			],
+			[
+				"home",
+				"akreditasi/app/Http/Controllers/HomeController.php"
+			],
+			[
+				"loginre",
+				"akreditasi/app/Http/Requests/LoginRequest.php"
+			],
+			[
 				"authcont",
 				"rekapp/app/Http/Controllers/AuthController.php"
 			],
@@ -611,18 +748,6 @@
 				"akreditasi/app/LoginModel.php"
 			],
 			[
-				"header",
-				"resources/views/includes/header.blade.php"
-			],
-			[
-				"asesor",
-				"resources/views/page/asesor.blade.php"
-			],
-			[
-				"footer",
-				"resources/views/includes/footer.blade.php"
-			],
-			[
 				"head",
 				"resources/views/includes/header.blade.php"
 			],
@@ -631,16 +756,8 @@
 				"config/app.php"
 			],
 			[
-				"home",
-				"resources/views/page/home.blade.php"
-			],
-			[
 				"pertanya",
 				"app/Pertanyaan.php"
-			],
-			[
-				"route",
-				"app/Http/routes.php"
 			],
 			[
 				"per",
@@ -840,7 +957,7 @@
 		[
 			[
 				"",
-				"/C/xampp/htdocs/jelajahpurbalingga/jelajah purbalingga.sublime-project"
+				"/C/xampp/htdocs/HulaaWeb/hulaawebproject.sublime-project"
 			]
 		],
 		"width": 380.0
