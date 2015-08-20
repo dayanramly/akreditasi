@@ -1,5 +1,5 @@
 <ul id="dropdown1" class="dropdown-content">
-	<li><a href="{{URL::to('/newpass')}}"><i class="material-icons left">lock_outline</i>Ganti Password</a></li>
+	<li><a href="{{URL::to('/user/edit')}}/{{Auth::user()->id}}"><i class="material-icons left">lock_outline</i>Ganti Password</a></li>
 	<li class="divider"></li>
 	<li><a href="{{URL::to('/auth/logout')}}"><i class="material-icons left">power_settings_new</i>Logout</a></li>
 </ul>
@@ -23,7 +23,7 @@
 			<li><a href="{{URL::to('/asesor')}}"><i class="material-icons left">supervisor_account</i>Asesor</a></li>
 			<li><a href="{{URL::to('/user')}}"><i class="material-icons left">perm_identity</i>User</a></li>
 			@endif
-			<li><a href="{{URL::to('/newpass')}}"><i class="material-icons left">lock_outline</i>Ganti Password</a></li>
+			<li><a href="{{URL::to('/user/edit')}}/{{Auth::user('id')}}"><i class="material-icons left">lock_outline</i>Ganti Password</a></li>
 			<li><a href="{{URL::to('/auth/logout')}}"><i class="material-icons left">power_settings_new</i>Logout</a></li>
 		</ul>
 	</div>

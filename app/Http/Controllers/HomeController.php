@@ -46,15 +46,23 @@ class HomeController extends Controller
         $data['userAll'] = User::all();
         return view('page.user_list', $data);
     }    
-    public function userEdit($id)
+    public function formEdit($id)
+    {
+        $user['dataUser'] = User::find($id);
+        return view('page.edit_user', $user);
+    }    
+
+    //edit user yang login sendiri
+    public function userEdit(Requests\UserRequest $request, $id)
     {
         $users              = User::find($id);
         $users->uname       = $request->input('uname');
-        $users->password    = $request->input('password');
-        $users->group_id    = $request->input('group_id');
+        $password           = $request->input('password');
+        if (!empty($password)){
+            $users->password    = bcrypt($password);
+        }
         $users->save();
 
-        // return view('page.edit_user', $data);
         return redirect('user');
     }
 }

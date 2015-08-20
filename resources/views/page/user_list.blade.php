@@ -7,7 +7,7 @@
 	<table class="responsive-table striped">
 		<thead>
 			<tr>
-				<th data-field="id" class="center">Id</th>
+				{{-- <th data-field="id" class="center">Id</th> --}}
 				<th data-field="name">Username</th>
 				<th data-field="price" class="center">Group ID</th>
 				<th data-field="price" class="right"></th>
@@ -17,7 +17,7 @@
 		<tbody>
 			@foreach($userAll as $u)
 			<tr>
-				<td class="center">{!! $u->id !!}</td>
+				{{-- <td class="center">{!! $u->id !!}</td> --}}
 				<td>{!! $u->uname !!}</td>
 				<td class="center">{!! $u->group_id !!}</td>
 				<td class="right" style="padding-right:25px;">

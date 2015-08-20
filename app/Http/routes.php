@@ -27,7 +27,8 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/asesor', 'HomeController@asesor');
     Route::get('/lihathasil', 'HomeController@lihathasil');
     Route::get('/user', 'HomeController@user');
-    Route::get('/user/edit/{id}', 'HomeController@userEdit');
+    Route::get('/user/edit/{id}', 'HomeController@formEdit');
+    Route::post('/user/edit/{id}', 'HomeController@userEdit');
 
 });
 
