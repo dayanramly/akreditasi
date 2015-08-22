@@ -10,7 +10,7 @@
 				<th data-field="id">Nama</th>
 				<th data-field="name">Sekolah/Madrasah</th>
 				<th data-field="price">Program Keahlian</th>
-				<th data-field="price">Nilai</th>
+				<th data-field="price">Status</th>
 				<th data-field="price"></th>
 			</tr>
 		</thead>
@@ -20,7 +20,7 @@
 				<td>Dayan Ramly Ramadhan</td>
 				<td>SMK N 1 Purbalingga</td>
 				<td>Teknik Komputer dan Jaringan</td>
-				<td>0</td>
+				<td class="status-jawaban complete"><p>Lengkap</p></td>
 				<td>
 					<a href="#" class="waves-effect waves-light btn orange darken-1"><i class="material-icons right">assignment</i>Hasil</a>
 				</td>
@@ -29,7 +29,7 @@
 				<td>Dayan Ramly Ramadhan</td>
 				<td>SMK N 1 Purbalingga</td>
 				<td>Teknik Komputer dan Jaringan</td>
-				<td>80</td>
+				<td class="status-jawaban uncomplete"><p>Belum Lengkap</p></td>
 				<td>
 					<a href="#" class="waves-effect waves-light btn orange darken-1"><i class="material-icons right">assignment</i>Hasil</a>
 				</td>

@@ -25,9 +25,13 @@ class HomeController extends Controller
         return view('page.home');
     }
 
-    public function isidata()
+    public function formdata()
     {
         return view('page.isi_data');
+    }        
+    public function isidata()
+    {
+        
     }    
     public function newpass()
     {
@@ -41,9 +45,10 @@ class HomeController extends Controller
     {
         return view('page.lihathasil');
     }    
-    public function user()
+    public function user($id)
     {
         $data['userAll'] = User::all();
+        $data['idAll'] = $id;
         return view('page.user_list', $data);
     }    
     public function formEdit($id)
@@ -53,7 +58,7 @@ class HomeController extends Controller
     }    
 
     //edit user yang login sendiri
-    public function userEdit(Requests\UserRequest $request, $id)
+    public function userEdit(Requests\UserRequest $request, $id, $groupid)
     {
         $users              = User::find($id);
         $users->uname       = $request->input('uname');
@@ -63,6 +68,12 @@ class HomeController extends Controller
         }
         $users->save();
 
-        return redirect('user');
+        if($groupid!=1){
+            return redirect('user/'.$groupid);
+        }
+        else{
+            return redirect('/');
+        }
+
     }
 }

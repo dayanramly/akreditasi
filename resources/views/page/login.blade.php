@@ -10,18 +10,6 @@
 		</div>
 	</div>
 	<div class="row">
-		@if(count($errors)>0)
-		<div class="alert">
-			ada masalah <br /><br />
-			<ul>
-				@foreach ($errors->all() as $error)
-				<li>{{$error}}</li>
-				@endforeach
-			</ul>
-		</div>
-		@endif
-	</div>
-	<div class="row">
 		<div class="col s6 offset-s3 center">
 			<div class="form-login z-depth-3 col s12">
 				<form autocomplete="off" method="POST" >
