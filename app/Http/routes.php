@@ -23,7 +23,8 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/', 'HomeController@index');    
     Route::get('/isidata', 'HomeController@formdata');
     Route::post('/isidata', 'HomeController@isidata');
-	Route::get('/pertanyaan', 'PertanyaanController@index');
+    Route::get('/pertanyaan', 'PertanyaanController@index');
+	Route::post('/pertanyaan', 'PertanyaanController@simpan');
     Route::get('/newpass', 'HomeController@newpass');
     Route::get('/asesor', 'HomeController@asesor');
     Route::get('/lihathasil', 'HomeController@lihathasil');

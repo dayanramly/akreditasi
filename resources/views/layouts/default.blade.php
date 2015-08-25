@@ -20,6 +20,7 @@
     <footer>
     	<!-- footer here -->
     	@include('includes.footer')
+        @yield('js')
     </footer>
 </body>
 </html>
