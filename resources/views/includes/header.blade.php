@@ -8,11 +8,11 @@
 	<li class="divider"></li>
 	<li><a href="{{URL::to('/user/3')}}"><i class="material-icons left">power_settings_new</i>Public</a></li>
 </ul>
-<nav class="grey darken-3 z-depth-0">
+<nav class="grey lighten-3 z-depth-0">
 	<div class="nav-wrapper container">
-		<a href="{{URL::to('/')}}" class="brand-logo"><i class="material-icons left" style="margin-right:5px; color:#FF9800;">offline_pin</i>Akreditasi</a>
+		<a href="{{URL::to('/')}}" class="brand-logo"><img src="/assets/img/logo-sm.png"></a>
 		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-		<ul id="nav-mobile" class="right hide-on-med-and-down">
+		<ul id="nav-mobile" class="right hide-on-med-and-down black-text">
 			<li><a href="{{URL::to('/isidata')}}"><i class="material-icons left">assessment</i>Pertanyaan</a></li>
 			@if(Auth::user()->group_id != 3)
 			<li><a href="{{URL::to('/asesor')}}"><i class="material-icons left">supervisor_account</i>Asesor</a></li>

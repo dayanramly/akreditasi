@@ -1,55 +1,60 @@
-.login-header h1{
+.login-header h1 {
   color: #fff;
   margin-top: 4rem;
-  margin-bottom: 1rem;
-}
-.login-header p{
-  margin-top:0;
-  color: #fff;
-}
-.form-login{
+  margin-bottom: 1rem; }
+
+.login-header p {
+  margin-top: 0;
+  color: #fff; }
+
+.form-login {
   background-color: #fafafa;
   margin: 1rem auto 3rem;
   border-radius: 5px;
-  padding: 3rem 2rem 2rem !important;
-}
-.body-content{
-  padding: 2rem 1rem;
-}
-.new-password{
+  padding: 3rem 2rem 2rem !important; }
+
+.body-content {
+  padding: 2rem 1rem; }
+
+.new-password {
   border-radius: 5px;
   padding: 1rem 2rem 2rem !important;
-  /*border: 3px solid #dddddd;*/
-}
-.new-password h4{
-  color: #f57c00;
-}
-.new-password button{
-  margin-top:15px;
-}
-.table-list tr>td, .table-list th{
-  text-align: center;
-  padding: 3px;
-}
-.status-jawaban p{
-  padding:5px;
-}
-.complete p{
-  color: #64dd17;
-}
-.uncomplete p{
-  color: #f44336;
-}
-.error-class{
-  color: red;
-  text-align: center;
-}
+  /*border: 3px solid #dddddd;*/ }
+  .new-password h4 {
+    color: #f57c00; }
+  .new-password button {
+    margin-top: 15px; }
 
-.help-class{
+.table-list tr > td, .table-list th {
+  text-align: center;
+  padding: 3px; }
+
+.status-jawaban p {
+  padding: 5px; }
+
+.complete p {
+  color: #64dd17; }
+
+.uncomplete p {
+  color: #f44336; }
+
+.error-class {
+  color: red;
+  text-align: center; }
+
+.help-class {
   font-size: 11px;
   color: #888;
   margin: 0;
   margin-left: 50px;
   margin-top: -5px;
-  margin-bottom: 20px !important;
-}
+  margin-bottom: 20px !important; }
+
+.brand-logo img {
+  height: 65px;
+  padding: 15px; }
+
+.black-text li a {
+  color: #555 !important; }
+
+/*# sourceMappingURL=custom.css.map */
