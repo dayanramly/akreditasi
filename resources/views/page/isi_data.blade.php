@@ -4,8 +4,8 @@
 
 <div class="col s12">
 	{{-- {{$pertanyasan}} --}}
-	<h3>Data Identitas Program Keahlian</h3>
-
+	<h4>Data Identitas Program Keahlian</h4>
+	<div class="divider"></div>
 	<ol>
 		<li>
 			<div class="row">
@@ -147,7 +147,7 @@
 	</ol>
 
 	<div class="col s12 center">
-		<a href="{!! URL::to('/pertanyaan') !!}" class="waves-effect waves-light btn orange darken-1"><i class="material-icons right">send</i>Lanjut ke Pertanyaan</a>
+		<a href="{!! URL::to('/pertanyaan?page=1') !!}" class="waves-effect waves-light btn orange darken-1"><i class="material-icons right">send</i>Lanjut ke Pertanyaan</a>
 	</div>
 
 </div>

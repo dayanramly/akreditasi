@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use DB;
+use Storage;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Pertanyaan;
@@ -28,6 +29,8 @@ class PertanyaanController extends Controller
             if(!empty($jawaban[$_GET['page']])){
                 $jwb = $jawaban[$_GET['page']];
             }
+        }else{
+            $jwb="";
         }
         $data['pertanyaan'] = Pertanyaan::paginate(1);
         $data['pertanyaan']->setPath(url('/pertanyaan'));
@@ -46,14 +49,14 @@ class PertanyaanController extends Controller
         $jawaban = $rq->input('f');
         $file = $rq->file('f.file');
 
-        
+        if(!empty($file)){
+            $filename = 'upload_'.$file->getClientOriginalName();
+            // $exists = Storage::disk('local')->exists($filename);
+            Storage::disk('local')->put($filename, file_get_contents($file->getRealPath()));
+            $urlfile = '/upload/'.$filename;
+            $jawaban['file'] = $urlfile;
+        }
 
-        //Handling upload
-        //ambil file dari input
-        //move ke public
-        //ambil url yng ada di public
-
-        $jawaban['file'] = $urlfile;
 
         if(!empty($jawaban['jawaban'])){
             $dbJawaban = Jawaban::firstOrCreate(array("user_id" => Auth::user()->id));
@@ -63,6 +66,9 @@ class PertanyaanController extends Controller
                 $extJawaban = json_decode($dbJawaban->jawaban, true);    
             }
 
+            if(!empty($extJawaban[$jawaban['no']]["file"]) && empty($jawaban['file'])){
+                $jawaban['file'] = $extJawaban[$jawaban['no']]["file"];
+            }
             $extJawaban[$jawaban['no']] = $jawaban;
 
             $dbJawaban->jawaban = json_encode($extJawaban);

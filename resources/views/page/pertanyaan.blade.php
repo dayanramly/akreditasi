@@ -3,11 +3,11 @@
 @section('content')
 
 <div class="col s12" style="font-size:12pt;">
-	{{-- {{$pertanyasan}} --}}
+
 	@foreach ($pertanyaan as $list_pertanyaan) 
 	{!! Form::open(array('method'=>'POST', 'files'=>true, "enctype"=>"multipart/form-data")) !!}
 	<input name="f[no]" type="hidden" value="{{$list_pertanyaan->id}}">
-
+	{{-- {{{$list_pertanyaan}}} --}}
 	{{{$list_pertanyaan->id}}}. {{{$list_pertanyaan->pertanyaan}}}
 	<?php 
 	$j = 0;
@@ -27,6 +27,9 @@
 				{{-- link file upload --}}
 			</div>
 		</div>
+		@if (!empty($jawaban["file"]))
+		<a href="{!!url($jawaban["file"])!!}" download target="_blank">Download Image</a>
+		@endif
 	</ul>
 	@endforeach
 	{!! $pertanyaan->render() !!}
@@ -35,7 +38,13 @@
 </div>
 @stop
 @section('js')
+@if (!empty($jawaban["jawaban"]))
 <script type="text/javascript">
-// select jawaban yang ada
+$(document).ready(function() {
+
+	$('#n{!!$jawaban["no"]!!}j{!!$jawaban["jawaban"]!!}').prop('checked',true);
+
+})
 </script>
+@endif
 @endsection

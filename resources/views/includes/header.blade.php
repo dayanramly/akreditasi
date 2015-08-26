@@ -8,7 +8,7 @@
 	<li class="divider"></li>
 	<li><a href="{{URL::to('/user/3')}}"><i class="material-icons left">power_settings_new</i>Public</a></li>
 </ul>
-<nav class="grey lighten-3 z-depth-0">
+<nav class="grey lighten-3 z-depth-1">
 	<div class="nav-wrapper container">
 		<a href="{{URL::to('/')}}" class="brand-logo"><img src="/assets/img/logo-sm.png"></a>
 		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
