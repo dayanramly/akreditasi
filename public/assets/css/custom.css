@@ -57,4 +57,15 @@
 .black-text li a {
   color: #555 !important; }
 
+.list-panel {
+  padding: 0;
+  margin: 0; }
+  .list-panel li {
+    display: inline-block;
+    padding: 0px 15px; }
+    .list-panel li p {
+      padding: 0;
+      margin: 0;
+      opacity: 0.7; }
+
 /*# sourceMappingURL=custom.css.map */

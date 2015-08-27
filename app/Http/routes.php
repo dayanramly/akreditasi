@@ -22,6 +22,7 @@
 Route::group(['middleware' => 'auth'], function(){
     Route::get('/', 'HomeController@index');    
     Route::get('/isidata', 'HomeController@formdata');
+    Route::get('/edit/isidata', 'HomeController@editdata');
     Route::post('/isidata', 'HomeController@isidata');
     Route::get('/pertanyaan', 'PertanyaanController@index');
 	Route::post('/pertanyaan', 'PertanyaanController@simpan');

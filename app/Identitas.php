@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Identitas extends Model
 {
-    public $timestamps=false;
-    protected $table='identitas';
+	public $timestamps=false;
+	protected $guarded = array();
+	protected $table='identitas';
 }

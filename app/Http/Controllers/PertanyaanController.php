@@ -10,6 +10,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Pertanyaan;
 use App\Jawaban;
+use App\Identitas;
 use Auth;
 
 class PertanyaanController extends Controller
@@ -24,6 +25,12 @@ class PertanyaanController extends Controller
         $db = Jawaban::whereuser_id(Auth::user()->id)->first();
         $jwb = "";
 
+        $ident = Identitas::whereuser_id(Auth::user()->id)->first();
+        $identitas = "";
+        if(!empty($ident)){
+            $identitas = $ident;
+        }
+
         if(!empty($db->jawaban)){
             $jawaban = json_decode($db->jawaban, true);
             if(!empty($jawaban[$_GET['page']])){
@@ -35,6 +42,7 @@ class PertanyaanController extends Controller
         $data['pertanyaan'] = Pertanyaan::paginate(1);
         $data['pertanyaan']->setPath(url('/pertanyaan'));
         $data['jawaban'] = $jwb;
+        $data['identitas'] = $identitas;
         return view('page.pertanyaan', $data);
     }
     

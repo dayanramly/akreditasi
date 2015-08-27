@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\User;
+use App\Identitas;
+use Auth;
 
 class HomeController extends Controller
 {
@@ -22,20 +24,49 @@ class HomeController extends Controller
      */
     public function index()
     {
+
         return view('page.home');
     }
 
     public function formdata()
     {
+        if(!empty(Identitas::whereuser_id(Auth::user()->id)->first())){
+            return redirect('pertanyaan?page=1');
+        }
         return view('page.isi_data');
+
     }        
-    public function isidata()
+    public function isidata(Requests\IsiDataRequest $request)
     {
+        $isidata = Identitas::firstOrCreate(['user_id' => Auth::user()->id]); //ingat firstOrCrate pakainya array()
+
+        $isidata->progli    = $request->input('progli');
+        $isidata->sekolah   = $request->input('sekolah');
+        $isidata->nss       = $request->input('nss');
+        $isidata->alamat    = $request->input('alamat');
+        $isidata->kec       = $request->input('kec');
+        $isidata->kab       = $request->input('kab');
+        $isidata->provinsi  = $request->input('provinsi');
+        $isidata->kodepos   = $request->input('kodepos');
+        $isidata->telp      = $request->input('telp');
+        $isidata->email     = $request->input('email');
+        $isidata->status    = $request->input('status');
+        $isidata->yayasan   = $request->input('yayasan');
+        $isidata->akte      = $request->input('akte');
+        $isidata->tahunb    = $request->input('tahunb');
+        $isidata->statusa   = $request->input('statusa');
+        $isidata->visi      = $request->input('visi');
+        $isidata->misi      = $request->input('misi');
+        $isidata->tujuans   = $request->input('tujuans');
+        $isidata->tujuanp   = $request->input('tujuanp');
+        $isidata->save();
+        return redirect('pertanyaan?page=1');
         
     }    
-    public function newpass()
+    public function editdata()
     {
-        return view('page.change_password');
+        $user['dataUser'] = Identitas::whereuser_id(Auth::user()->id)->first();
+        return view('page.edit_isi_data', $user);
     }    
     public function asesor()
     {
