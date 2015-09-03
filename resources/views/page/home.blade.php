@@ -9,6 +9,7 @@
 	<div class="divider" style="margin:40px 0px;"></div>
 	<div class="row">
 		<div class="col s12" style="background:#fafafa;margin-bottom:15px;padding:15px;">
+			@if(!empty($dataUser))
 			<table class="responsive-table">
 				<thead>
 					<tr>
@@ -21,17 +22,18 @@
 
 				<tbody>
 					<tr>
-						<td>Dayan Ramly Ramadhan</td>
-						<td>SMK N 1 Purbalingga</td>
-						<td>Teknik Komputer dan Jaringan</td>
+						<td>{{{Auth::user()->uname}}}</td>
+						<td>{{{$dataUser->sekolah}}}</td>
+						<td>{{{$dataUser->progli}}}</td>
 						<td>
 							<a href="{!! URL::to('/lihathasil') !!}" class="waves-effect waves-light btn"><i class="material-icons right">assignment</i>Hasil</a>
 						</td>
 					</tr>
 				</tbody>
 			</table>
-			<div class="divider"></div>
+			@else
 			<p>Anda belum mengisi data, silakan isi data terlebih dahulu.</p>
+			@endif
 		</div>
 	</div>
 	<div class="row">

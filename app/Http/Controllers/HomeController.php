@@ -8,6 +8,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\User;
 use App\Identitas;
+use App\Jawaban;
 use Auth;
 
 class HomeController extends Controller
@@ -24,8 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-
-        return view('page.home');
+        $user['dataUser'] = Identitas::whereuser_id(Auth::user()->id)->first();
+        return view('page.home', $user);
     }
 
     public function formdata()
@@ -67,14 +68,16 @@ class HomeController extends Controller
     {
         $user['dataUser'] = Identitas::whereuser_id(Auth::user()->id)->first();
         return view('page.edit_isi_data', $user);
-    }    
+    }      
     public function asesor()
     {
-        return view('page.asesor');
+        $data['dataUser'] = Identitas::whereuser_id(Auth::user()->id)->first();
+        return view('page.asesor',$data);
     }    
     public function lihathasil()
     {
-        return view('page.lihathasil');
+        $data['hasil'] = Jawaban::whereuser_id(Auth::user()->id)->first();
+        return view('page.lihathasil',$data);
     }    
     public function user($id)
     {

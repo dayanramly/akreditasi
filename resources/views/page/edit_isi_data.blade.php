@@ -117,7 +117,7 @@
 			<li>
 				<div class="row">
 					<div class="input-field col s12">
-						<textarea name="visi" id="visi" class="materialize-textarea" required="" value="{{{ $dataUser->visi }}}"></textarea>
+						<textarea name="visi" id="visi" class="materialize-textarea" required="" >{{{ $dataUser->visi }}}</textarea>
 						<label for="visi">Visi Sekolah/Madrasah</label>
 					</div>
 				</div>
@@ -125,7 +125,7 @@
 			<li>
 				<div class="row">
 					<div class="input-field col s12">
-						<textarea name="misi" id="misi" class="materialize-textarea" required="" value="{{{ $dataUser->misi }}}"></textarea>
+						<textarea name="misi" id="misi" class="materialize-textarea" required="">{{{ $dataUser->misi }}}</textarea>
 						<label for="misi">Misi Sekolah/Madrasah</label>
 					</div>
 				</div>
@@ -133,7 +133,7 @@
 			<li>
 				<div class="row">
 					<div class="input-field col s12">
-						<textarea name="tujuans" id="tujuans" class="materialize-textarea" required="" value="{{{ $dataUser->tujuans }}}"></textarea>
+						<textarea name="tujuans" id="tujuans" class="materialize-textarea" required="">{{{ $dataUser->tujuans }}}</textarea>
 						<label for="tujuans">Tujuan Sekolah/Madrasah</label>
 					</div>
 				</div>
@@ -141,7 +141,7 @@
 			<li>
 				<div class="row">
 					<div class="input-field col s12">
-						<textarea name="tujuanp" id="tujuanp" class="materialize-textarea" required="" value="{{{ $dataUser->tujuanp }}}"></textarea>
+						<textarea name="tujuanp" id="tujuanp" class="materialize-textarea" required="">{{{ $dataUser->tujuanp }}}</textarea>
 						<label for="tujuanp">Tujuan Program Keahlian</label>
 					</div>
 				</div>
@@ -154,3 +154,14 @@
 		</form>
 	</div>
 	@stop
+	@section('js')
+	@if (!empty($dataUser->status))
+	<script type="text/javascript">
+	$(document).ready(function() {
+
+		$('#{!!$dataUser->status!!}').prop('checked',true);
+
+	})
+	</script>
+	@endif
+	@endsection

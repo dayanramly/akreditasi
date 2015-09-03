@@ -16,16 +16,20 @@
 		</thead>
 
 		<tbody>
+			@if (!empty($dataUser))
 			<tr>
-				<td>Dayan Ramly Ramadhan</td>
-				<td>SMK N 1 Purbalingga</td>
-				<td>Teknik Komputer dan Jaringan</td>
+				<td>{{{Auth::user()->uname}}}</td>
+				<td>{{{$dataUser->sekolah}}}</td>
+				<td>{{{$dataUser->progli}}}</td>
 				<td class="status-jawaban complete"><p>Lengkap</p></td>
 				<td>
 					<a href="#" class="waves-effect waves-light btn orange darken-1"><i class="material-icons right">assignment</i>Hasil</a>
 				</td>
 			</tr>
-			<tr>
+			@else
+			<tr><td>Belum ada data</td></tr>
+			@endif
+{{-- 			<tr>
 				<td>Dayan Ramly Ramadhan</td>
 				<td>SMK N 1 Purbalingga</td>
 				<td>Teknik Komputer dan Jaringan</td>
@@ -33,7 +37,7 @@
 				<td>
 					<a href="#" class="waves-effect waves-light btn orange darken-1"><i class="material-icons right">assignment</i>Hasil</a>
 				</td>
-			</tr>
+			</tr> --}}
 		</tbody>
 	</table>
 
