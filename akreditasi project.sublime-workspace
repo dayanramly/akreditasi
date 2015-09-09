@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"json",
-				"json_encode"
-			],
-			[
 				"hasil",
 				"hasilList"
+			],
+			[
+				"json",
+				"json_decode"
 			],
 			[
 				"A",
@@ -155,7 +155,7 @@
 			"file": "resources/views/page/lihathasil.blade.php",
 			"settings":
 			{
-				"buffer_size": 1426,
+				"buffer_size": 2169,
 				"line_ending": "Windows"
 			}
 		},
@@ -163,7 +163,7 @@
 			"file": "app/Http/Controllers/HomeController.php",
 			"settings":
 			{
-				"buffer_size": 3504,
+				"buffer_size": 3764,
 				"line_ending": "Windows"
 			}
 		},
@@ -627,15 +627,15 @@
 					"file": "resources/views/page/lihathasil.blade.php",
 					"settings":
 					{
-						"buffer_size": 1426,
+						"buffer_size": 2169,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								438,
-								438
+								880,
+								880
 							]
 						],
 						"settings":
@@ -644,7 +644,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -654,15 +654,15 @@
 					"file": "app/Http/Controllers/HomeController.php",
 					"settings":
 					{
-						"buffer_size": 3504,
+						"buffer_size": 3764,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								178,
-								178
+								2544,
+								2544
 							]
 						],
 						"settings":
@@ -672,7 +672,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 892.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -716,8 +716,8 @@
 						"selection":
 						[
 							[
-								315,
-								315
+								1716,
+								1716
 							]
 						],
 						"settings":
@@ -727,7 +727,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 435.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -913,6 +913,10 @@
 		"selected_items":
 		[
 			[
+				"per",
+				"akreditasi/resources/views/page/pertanyaan.blade.php"
+			],
+			[
 				"lihathasil",
 				"akreditasi/resources/views/page/lihathasil.blade.php"
 			],
@@ -939,10 +943,6 @@
 			[
 				"header",
 				"akreditasi/resources/views/includes/header.blade.php"
-			],
-			[
-				"per",
-				"akreditasi/app/Http/Controllers/PertanyaanController.php"
 			],
 			[
 				"layout",
@@ -1209,8 +1209,12 @@
 		"selected_items":
 		[
 			[
+				"nga",
+				"/C/xampp/htdocs/ngapangapak/ngapangapak.sublime-project"
+			],
+			[
 				"",
-				"/C/xampp/htdocs/HulaaWeb/hulaawebproject.sublime-project"
+				"/C/xampp/htdocs/jelajahpurbalingga/jelajah purbalingga.sublime-project"
 			],
 			[
 				"hulaa",
