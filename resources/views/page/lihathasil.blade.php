@@ -2,6 +2,29 @@
 @section('title', 'Home Page')
 @section('content')
 
+@if (!empty($identitas))
+<div class="row">
+	<div class="col s12">
+		<div class="card-panel teal">
+			<div class="row" style="margin:0; padding:0;">
+				<div class="col s10">
+					<ul class="white-text list-panel">
+						<li><p>Sekolah</p><span>{{{$identitas->sekolah}}}</span></li>
+						<li><p>Program Keahlian</p><span>{{{$identitas->progli}}}</span></li>
+						<li><p>Yayasan</p><span>{{{$identitas->yayasan}}}</span></li>
+					</ul>
+				</div>
+				<div class="col s2">
+					<a href="/edit/isidata" class="btn waves-effect waves-light orange darken-1" type="submit" name="action">Edit Data
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+@endif
+
 <div class="col s12">
 
 	<table class="responsive-table bordered table-list">
@@ -16,94 +39,46 @@
 		</thead>
 
 		<tbody>
-			<?php $jawaban = json_decode($hasil->jawaban, true);
-			// print_r($jawaban);
-			// die();
+			<?php 
+			$jawaban = json_decode($hasil->jawaban, true);
 			?>
 			
 			@for($i=1;$i<186;$i++)
-			<?php 
-				// print_r($jawaban[$i]);
-				// die();
-			?>
 
 			@if(!empty($jawaban[$i]))
 			<tr>
 				<td>{{{$jawaban[$i]['no']}}}</td>
 				<td>{{{$jawaban[$i]['jawaban']}}}</td>
-				<td>
+				<td class="fileupload">
 					@if(!empty($jawaban[$i]['file']))
 					{{{$jawaban[$i]['file']}}}
 					@else
-					Belum diisi
+					Belum Upload Foto
 					@endif
 				</td>
-				<td>
-					@if((!empty($jawaban[$i]['jawaban']))&&(!empty($jawaban[$i]['file'])))
-						Lengkap
+
+				@if((!empty($jawaban[$i]['jawaban']))&&(!empty($jawaban[$i]['file'])))
+				<td class="status-jawaban complete">
+					<p>Lengkap</p>
 					@else
-						Belum Lengkap
-					@endif
-				</td>
-				<td><a class="waves-effect waves-light btn orange" href="pertanyaan?page={{{$i}}}">Lihat</a></td>
-			</tr>
-			@else
-			<tr>
-				<td>{{{$i}}}</td>
-				<td colspan="3">
-					Belum diisi
-				</td>
-				<td><a class="waves-effect waves-light btn" href="pertanyaan?page={{{$i}}}">Isi</a></td>
-			</tr>
-			@endif
-			@endfor
-			{{-- @else --}}
+					<td class="status-jawaban uncomplete">
+						<p>Belum Lengkap</p>
+						@endif
+					</td>
+					<td><a class="waves-effect waves-light btn light-green lighten-2" href="pertanyaan?page={{{$i}}}">Lihat</a></td>
+				</tr>
+				@else
+				<tr>
+					<td>{{{$i}}}</td>
+					<td colspan="3">
+						Belum Diisi
+					</td>
+					<td><a class="waves-effect waves-light btn" href="{!! URL::to('/pertanyaan?page={{{$i}}}') !!}">Isi</a></td>
+				</tr>
+				@endif
+				@endfor
+			</tbody>
+		</table>
 
-			{{-- @endif --}}
-
-			{{-- @endfor --}}
-{{-- 					@if()
-					@else
-
-					@endif --}}
-					
-					{{-- {{{print_r(json_decode($hasil))}}} --}}
-					{{-- {{{$hasil->jawaban}}} --}}
-{{-- 			@foreach($hasil as $hasilList)
-				{{{$hasilList}}}
-				@endforeach --}}
-				{{-- @foreach (json_encode($hasil->jawaban) as $hasilList) --}}
-				{{-- {{{$hasilList}}} --}}
-{{-- 			<tr>
-				<td>1</td>
-				<td>a</td>
-				<td>C:\xampp\htdocs\akreditasi\resources\views\page</td>
-				<td class="status-jawaban complete"><p>Lengkap</p></td>
-				<td>
-					<a class="waves-effect waves-light btn btn-flat">Lihat</a>
-				</td>
-			</tr>	 --}}
-			{{-- @endforeach		 --}}
-{{-- 			<tr>
-				<td>2</td>
-				<td>c</td>
-				<td>C:\xampp\htdocs\akreditasi\resources\views\now</td>
-				<td class="status-jawaban complete"><p>Lengkap</p></td>
-				<td>
-					<a class="waves-effect waves-light btn btn-flat">Lihat</a>
-				</td>
-			</tr> --}}
-{{-- 			<tr>
-				<td>3</td>
-				<td>-</td>
-				<td>-</td>
-				<td class="status-jawaban uncomplete"><p>Belum Lengkap</p></td>
-				<td>
-					<a href="#" class="waves-effect waves-light btn orange" style="color:#fff"><i class="material-icons right">trending_flat</i>Lanjut</a>
-				</td>
-			</tr> --}}
-		</tbody>
-	</table>
-
-</div>
-@stop
+	</div>
+	@stop

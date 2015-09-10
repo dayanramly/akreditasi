@@ -139,23 +139,15 @@
 			"file": "app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 1648,
+				"buffer_size": 1710,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/views/page/asesor.blade.php",
+			"file": "resources/views/page/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 1198,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/page/lihathasil.blade.php",
-			"settings":
-			{
-				"buffer_size": 2169,
+				"buffer_size": 1548,
 				"line_ending": "Windows"
 			}
 		},
@@ -163,7 +155,23 @@
 			"file": "app/Http/Controllers/HomeController.php",
 			"settings":
 			{
-				"buffer_size": 3764,
+				"buffer_size": 3918,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/page/asesor.blade.php",
+			"settings":
+			{
+				"buffer_size": 918,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/page/lihathasil.blade.php",
+			"settings":
+			{
+				"buffer_size": 2055,
 				"line_ending": "Windows"
 			}
 		},
@@ -203,23 +211,15 @@
 			"file": "resources/assets/sass/app.scss",
 			"settings":
 			{
-				"buffer_size": 1226,
+				"buffer_size": 1293,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/xampp/htdocs/rapor/app/routes.php",
+			"file": "resources/views/page/asesorhasil.blade.php",
 			"settings":
 			{
-				"buffer_size": 3029,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/page/home.blade.php",
-			"settings":
-			{
-				"buffer_size": 1376,
+				"buffer_size": 2251,
 				"line_ending": "Windows"
 			}
 		}
@@ -268,6 +268,8 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/akreditasi/resources/views/page/home.blade.php",
+		"/C/xampp/htdocs/rapor/app/routes.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/edit_isi_data.blade.php",
 		"/C/xampp/htdocs/rekapp/public/robots.txt",
 		"/C/xampp/htdocs/akreditasi/app/Identitas.php",
@@ -317,7 +319,6 @@
 		"/C/Users/notDayPC/.ssh/id_rsa",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/lihathasil.blade.php",
 		"/C/xampp/htdocs/akreditasi/config/auth.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/page/home.blade.php",
 		"/C/xampp/htdocs/akreditasi/public/assets/css/materialize.css",
 		"/C/xampp/htdocs/akreditasi/config/app.php",
 		"/C/xampp/htdocs/akreditasi/config/database.php",
@@ -394,8 +395,7 @@
 		"/D/xampp/htdocs/wquiz/index.php",
 		"/D/xampp/htdocs/singlepage/style.css",
 		"/C/xampp/htdocs/HulaaWeb/src/main/scala/com/hulaa/web/db/service/SecurityService.scala",
-		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_filter.scala.html",
-		"/C/xampp/htdocs/HulaaWeb/src/main/webapp/resources/css/bootstrap.css"
+		"/C/xampp/htdocs/HulaaWeb/src/main/twirl/com/hulaa/flight/pages/dummy/Mobile_flight_filter.scala.html"
 	],
 	"find":
 	{
@@ -564,7 +564,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -572,15 +572,15 @@
 					"file": "app/Http/routes.php",
 					"settings":
 					{
-						"buffer_size": 1648,
+						"buffer_size": 1710,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1252,
-								1262
+								1229,
+								1229
 							]
 						],
 						"settings":
@@ -597,18 +597,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "resources/views/page/asesor.blade.php",
+					"file": "resources/views/page/home.blade.php",
 					"settings":
 					{
-						"buffer_size": 1198,
+						"buffer_size": 1548,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								814,
-								814
+								1282,
+								1282
 							]
 						],
 						"settings":
@@ -624,45 +624,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "resources/views/page/lihathasil.blade.php",
-					"settings":
-					{
-						"buffer_size": 2169,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								880,
-								880
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "app/Http/Controllers/HomeController.php",
 					"settings":
 					{
-						"buffer_size": 3764,
+						"buffer_size": 3918,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2544,
-								2544
+								3047,
+								3047
 							]
 						],
 						"settings":
@@ -672,25 +645,52 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 892.0,
+						"translation.y": 847.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "resources/views/page/isi_data.blade.php",
+					"buffer": 3,
+					"file": "resources/views/page/asesor.blade.php",
 					"settings":
 					{
-						"buffer_size": 4869,
+						"buffer_size": 918,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3618,
-								3618
+								709,
+								709
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/page/lihathasil.blade.php",
+					"settings":
+					{
+						"buffer_size": 2055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1121,
+								1121
 							]
 						],
 						"settings":
@@ -706,6 +706,33 @@
 				},
 				{
 					"buffer": 5,
+					"file": "resources/views/page/isi_data.blade.php",
+					"settings":
+					{
+						"buffer_size": 4869,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4869,
+								4869
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 330.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "app/Http/Controllers/PertanyaanController.php",
 					"settings":
 					{
@@ -716,8 +743,8 @@
 						"selection":
 						[
 							[
-								1716,
-								1716
+								541,
+								473
 							]
 						],
 						"settings":
@@ -727,13 +754,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 435.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "resources/views/page/login.blade.php",
 					"settings":
 					{
@@ -760,7 +787,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "resources/views/page/pertanyaan.blade.php",
 					"settings":
 					{
@@ -771,8 +798,8 @@
 						"selection":
 						[
 							[
-								516,
-								516
+								735,
+								80
 							]
 						],
 						"settings":
@@ -781,25 +808,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 262.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "resources/assets/sass/app.scss",
 					"settings":
 					{
-						"buffer_size": 1226,
+						"buffer_size": 1293,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1150,
-								1150
+								691,
+								691
 							]
 						],
 						"settings":
@@ -809,52 +836,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 900.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/C/xampp/htdocs/rapor/app/routes.php",
-					"settings":
-					{
-						"buffer_size": 3029,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 280.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 10,
-					"file": "resources/views/page/home.blade.php",
+					"file": "resources/views/page/asesorhasil.blade.php",
 					"settings":
 					{
-						"buffer_size": 1376,
+						"buffer_size": 2251,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								702,
-								702
+								2079,
+								2079
 							]
 						],
 						"settings":
@@ -863,7 +863,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 262.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

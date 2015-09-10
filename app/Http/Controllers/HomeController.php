@@ -26,6 +26,7 @@ class HomeController extends Controller
     public function index()
     {
         $user['dataUser'] = Identitas::whereuser_id(Auth::user()->id)->first();
+        $user['jawaban'] = Jawaban::whereuser_id(Auth::user()->id)->first();
         return view('page.home', $user);
     }
 
@@ -71,13 +72,31 @@ class HomeController extends Controller
     }      
     public function asesor()
     {
+        $data['jawaban'] = Jawaban::whereuser_id(Auth::user()->id)->first();
         $data['dataUser'] = Identitas::whereuser_id(Auth::user()->id)->first();
         return view('page.asesor',$data);
     }    
     public function lihathasil()
     {
         $data['hasil'] = Jawaban::whereuser_id(Auth::user()->id)->first();
+        $data['identitas'] = Identitas::whereuser_id(Auth::user()->id)->first();
         return view('page.lihathasil',$data);
+    }       
+    public function asesorhasil()
+    {
+        $data['hasil'] = Jawaban::whereuser_id(Auth::user()->id)->first();
+        $data['identitas'] = Identitas::whereuser_id(Auth::user()->id)->first();
+        return view('page.asesorhasil',$data);
+    }      
+    public function updatehasil(Requests\IsiDataRequest $request)
+    {
+        $hasil= Jawaban::whereuser_id(Auth::user()->id)->first();
+        // echo $hasil;
+        // die();
+        $inp = $request->input('updatehasil');
+        $hasil->selesai = $inp;
+        $hasil->save();
+        return redirect('/asesor');
     }    
     public function user($id)
     {

@@ -34,10 +34,14 @@
 
 .table-list tr>td, .table-list th{
   text-align: center;
-  padding: 3px;
+  padding: 8px 3px;
+}
+.fileupload{
+  font-size: 13px;
+  text-align: left !important;
 }
 .status-jawaban p{
-  padding:5px;
+  margin: 0;
 }
 .complete p{
   color: #64dd17;
