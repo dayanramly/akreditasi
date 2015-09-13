@@ -7,6 +7,7 @@
 	<h3>SELAMAT DATANG</h3>
 	<h6>INSTRUMEN AKREDITASI SEKOLAH MENENGAH KEJURUAN/MADRASAH ALIYAH KEJURUAN(SMK/MAK)</h6>
 	<div class="divider" style="margin:40px 0px;"></div>
+	@if(Auth::user()->group_id==3)
 	<div class="row">
 		<div class="col s12" style="background:#fafafa;margin-bottom:15px;padding:15px;">
 			@if(!empty($dataUser))
@@ -28,9 +29,9 @@
 						<td>{{{$dataUser->progli}}}</td>
 						<td>
 							@if(!empty($jawaban->selesai))
-								Sudah Lengkap
+							<span class="home-status light-green accent-4">Sudah Lengkap</span>
 							@else
-								Belum Lengkap
+							<span class="home-status red">Belum Lengkap</span>
 							@endif
 						</td>
 						<td>
@@ -49,5 +50,6 @@
 			<a href="{!! URL::to('/isidata') !!}" class="waves-effect waves-light btn orange darken-1"><i class="material-icons right">send</i>Mulai Pengisian Data</a>
 		</div>
 	</div>
+	@endif
 </div>
 @stop

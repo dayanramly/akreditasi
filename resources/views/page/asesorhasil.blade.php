@@ -2,6 +2,14 @@
 @section('title', 'Home Page')
 @section('content')
 
+<div class="col s12 center" style="margin-bottom:15px;">
+	Status Asesor = @if(!empty($jawaban->selesai))
+	<span class="home-status light-green accent-4">Sudah Lengkap</span>
+	@else
+	<span class="home-status red">Belum Lengkap</span>
+	@endif
+</div>
+
 @if (!empty($identitas))
 <div class="row">
 	<div class="col s12">

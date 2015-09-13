@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"Aut",
+				"Auth::user	Auth-user"
+			],
+			[
+				"AUH",
+				"Auth::user	Auth-user"
+			],
+			[
 				"hasil",
 				"hasilList"
 			],
@@ -26,10 +34,6 @@
 			[
 				"inline",
 				"inline-block"
-			],
-			[
-				"Aut",
-				"Auth"
 			],
 			[
 				"print",
@@ -136,18 +140,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/Http/routes.php",
+			"file": "resources/views/page/asesorhasil.blade.php",
 			"settings":
 			{
-				"buffer_size": 1710,
+				"buffer_size": 2408,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/views/page/home.blade.php",
+			"file": "app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 1548,
+				"buffer_size": 1792,
 				"line_ending": "Windows"
 			}
 		},
@@ -155,7 +159,7 @@
 			"file": "app/Http/Controllers/HomeController.php",
 			"settings":
 			{
-				"buffer_size": 3918,
+				"buffer_size": 4291,
 				"line_ending": "Windows"
 			}
 		},
@@ -163,7 +167,7 @@
 			"file": "resources/views/page/asesor.blade.php",
 			"settings":
 			{
-				"buffer_size": 918,
+				"buffer_size": 1040,
 				"line_ending": "Windows"
 			}
 		},
@@ -171,7 +175,7 @@
 			"file": "resources/views/page/lihathasil.blade.php",
 			"settings":
 			{
-				"buffer_size": 2055,
+				"buffer_size": 2201,
 				"line_ending": "Windows"
 			}
 		},
@@ -216,10 +220,10 @@
 			}
 		},
 		{
-			"file": "resources/views/page/asesorhasil.blade.php",
+			"file": "resources/views/includes/header.blade.php",
 			"settings":
 			{
-				"buffer_size": 2251,
+				"buffer_size": 2569,
 				"line_ending": "Windows"
 			}
 		}
@@ -418,6 +422,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"asesorhasil",
+			"sekolah",
+			"dataUser",
+			"asesorhasil",
 			"Jawaban",
 			"identitas",
 			"editdata",
@@ -541,11 +549,7 @@
 			"list-detail-hotel\"",
 			".list-detail-hotel",
 			"home-tabs",
-			"price-hotel-rrom",
-			"col-4",
-			".button-book-flight",
-			"list-hotel-container",
-			"home-tabs"
+			"price-hotel-rrom"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -564,23 +568,50 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Http/routes.php",
+					"file": "resources/views/page/asesorhasil.blade.php",
 					"settings":
 					{
-						"buffer_size": 1710,
+						"buffer_size": 2408,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1229,
-								1229
+								1086,
+								1086
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 855.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/routes.php",
+					"settings":
+					{
+						"buffer_size": 1792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1315,
+								1315
 							]
 						],
 						"settings":
@@ -590,34 +621,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resources/views/page/home.blade.php",
-					"settings":
-					{
-						"buffer_size": 1548,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1282,
-								1282
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -627,15 +631,15 @@
 					"file": "app/Http/Controllers/HomeController.php",
 					"settings":
 					{
-						"buffer_size": 3918,
+						"buffer_size": 4291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3047,
-								3047
+								2632,
+								2632
 							]
 						],
 						"settings":
@@ -645,7 +649,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 847.0,
+						"translation.y": 960.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -655,15 +659,15 @@
 					"file": "resources/views/page/asesor.blade.php",
 					"settings":
 					{
-						"buffer_size": 918,
+						"buffer_size": 1040,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								709,
-								709
+								641,
+								641
 							]
 						],
 						"settings":
@@ -672,7 +676,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -682,15 +686,15 @@
 					"file": "resources/views/page/lihathasil.blade.php",
 					"settings":
 					{
-						"buffer_size": 2055,
+						"buffer_size": 2201,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1121,
-								1121
+								1893,
+								1893
 							]
 						],
 						"settings":
@@ -699,7 +703,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 840.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -716,8 +720,8 @@
 						"selection":
 						[
 							[
-								4869,
-								4869
+								245,
+								201
 							]
 						],
 						"settings":
@@ -726,7 +730,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 330.0,
+						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -743,8 +747,8 @@
 						"selection":
 						[
 							[
-								541,
-								473
+								382,
+								382
 							]
 						],
 						"settings":
@@ -843,18 +847,22 @@
 				},
 				{
 					"buffer": 10,
-					"file": "resources/views/page/asesorhasil.blade.php",
+					"file": "resources/views/includes/header.blade.php",
 					"settings":
 					{
-						"buffer_size": 2251,
+						"buffer_size": 2569,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2079,
-								2079
+								1170,
+								1170
+							],
+							[
+								1181,
+								1181
 							]
 						],
 						"settings":
@@ -863,7 +871,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 262.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -913,6 +921,14 @@
 		"selected_items":
 		[
 			[
+				"asesorhasil",
+				"akreditasi/resources/views/page/asesorhasil.blade.php"
+			],
+			[
+				"header",
+				"akreditasi/resources/views/includes/header.blade.php"
+			],
+			[
 				"per",
 				"akreditasi/resources/views/page/pertanyaan.blade.php"
 			],
@@ -939,10 +955,6 @@
 			[
 				"homeco",
 				"akreditasi/app/Http/Controllers/HomeController.php"
-			],
-			[
-				"header",
-				"akreditasi/resources/views/includes/header.blade.php"
 			],
 			[
 				"layout",

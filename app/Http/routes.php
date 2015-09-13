@@ -30,8 +30,8 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/newpass', 'HomeController@newpass');
     
     Route::get('/asesor', 'HomeController@asesor');
-    Route::get('/asesorhasil', 'HomeController@asesorhasil');
-    Route::post('/asesorhasil', 'HomeController@updatehasil');
+    Route::get('/asesorhasil/{id}', 'HomeController@asesorhasil');
+    Route::post('/asesorhasil/{id}', 'HomeController@updatehasil');
 
     Route::get('/lihathasil', 'HomeController@lihathasil');
     Route::get('/user/{id}', 'HomeController@user');

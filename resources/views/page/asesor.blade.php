@@ -16,22 +16,29 @@
 		</thead>
 
 		<tbody>
+			<?php 
+			// print_r(count($dataUser));
+			// die();
+			?>
 			@if (!empty($dataUser))
+			@for($i=0;$i<count($dataUser);$i++)
+			{{-- @foreach($dataUser as $asesorData) --}}
 			<tr>
-				<td>{{{Auth::user()->uname}}}</td>
-				<td>{{{$dataUser->sekolah}}}</td>
-				<td>{{{$dataUser->progli}}}</td>
+				<td>{{{$dataUser[$i]->progli}}}</td>
+				<td>{{{$dataUser[$i]->sekolah}}}</td>
+				<td>{{{$dataUser[$i]->progli}}}</td>
 				<td>
-					@if(!empty($jawaban->selesai))
-					Sudah Lengkap
+					@if(!empty($dataUser[$i]->selesai))
+					<span class="home-status light-green accent-4">Sudah Lengkap</span>
 					@else
-					Belum Lengkap
+					<span class="home-status red">Belum Lengkap</span>
 					@endif
 				</td>
 				<td>
-					<a href="{!! URL::to('/asesorhasil') !!}" class="waves-effect waves-light btn"><i class="material-icons right">assignment</i>Hasil</a>
+					<a href="/asesorhasil/{{{$dataUser[$i]->user_id}}}" class="waves-effect waves-light btn"><i class="material-icons right">assignment</i>Hasil</a>
 				</td>
 			</tr>
+			@endfor
 			@else
 			<tr><td>Belum ada data</td></tr>
 			@endif

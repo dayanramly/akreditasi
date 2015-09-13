@@ -10,6 +10,7 @@ use App\User;
 use App\Identitas;
 use App\Jawaban;
 use Auth;
+use DB;
 
 class HomeController extends Controller
 {
@@ -72,8 +73,13 @@ class HomeController extends Controller
     }      
     public function asesor()
     {
-        $data['jawaban'] = Jawaban::whereuser_id(Auth::user()->id)->first();
-        $data['dataUser'] = Identitas::whereuser_id(Auth::user()->id)->first();
+        $asesor = DB::table('user')
+        ->join('jawaban','user.id','=','jawaban.user_id')
+        ->join('identitas','user.id','=','identitas.user_id')
+        ->select('user.*', 'jawaban.*', 'identitas.*')
+        ->where('user.group_id','=','3')
+        ->get();
+        $data['dataUser'] = $asesor;
         return view('page.asesor',$data);
     }    
     public function lihathasil()
@@ -82,15 +88,16 @@ class HomeController extends Controller
         $data['identitas'] = Identitas::whereuser_id(Auth::user()->id)->first();
         return view('page.lihathasil',$data);
     }       
-    public function asesorhasil()
+    public function asesorhasil($id)
     {
-        $data['hasil'] = Jawaban::whereuser_id(Auth::user()->id)->first();
-        $data['identitas'] = Identitas::whereuser_id(Auth::user()->id)->first();
+        $data['hasil'] = Jawaban::whereuser_id($id)->first();
+        $data['identitas'] = Identitas::whereuser_id($id)->first();
+        $data['jawaban'] = Jawaban::whereuser_id($id)->first();
         return view('page.asesorhasil',$data);
     }      
-    public function updatehasil(Requests\IsiDataRequest $request)
+    public function updatehasil(Requests\IsiDataRequest $request, $id)
     {
-        $hasil= Jawaban::whereuser_id(Auth::user()->id)->first();
+        $hasil= Jawaban::whereuser_id($id)->first();
         // echo $hasil;
         // die();
         $inp = $request->input('updatehasil');
@@ -121,11 +128,12 @@ class HomeController extends Controller
         }
         $users->save();
 
-        if($groupid!=1){
-            return redirect('user/'.$groupid);
+        if($groupid===3){
+            return redirect('/');
+            
         }
         else{
-            return redirect('/');
+            return redirect('user/'.$groupid);
         }
 
     }

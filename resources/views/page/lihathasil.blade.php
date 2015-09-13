@@ -2,6 +2,15 @@
 @section('title', 'Home Page')
 @section('content')
 
+@if(!empty($hasil))
+<div class="col s12 center" style="margin-bottom:15px;">
+	Status Asesor = @if(!empty($jawaban->selesai))
+	<span class="home-status light-green accent-4">Sudah Lengkap</span>
+	@else
+	<span class="home-status red">Belum Lengkap</span>
+	@endif
+</div>
+
 @if (!empty($identitas))
 <div class="row">
 	<div class="col s12">
@@ -42,7 +51,7 @@
 			<?php 
 			$jawaban = json_decode($hasil->jawaban, true);
 			?>
-			
+			{{-- 			@if(!empty($jawaban)) --}}
 			@for($i=1;$i<186;$i++)
 
 			@if(!empty($jawaban[$i]))
@@ -73,12 +82,21 @@
 					<td colspan="3">
 						Belum Diisi
 					</td>
-					<td><a class="waves-effect waves-light btn" href="{!! URL::to('/pertanyaan?page={{{$i}}}') !!}">Isi</a></td>
+					<td><a class="waves-effect waves-light btn" href="pertanyaan?page={{{$i}}}">Isi</a></td>
 				</tr>
 				@endif
 				@endfor
-			</tbody>
-		</table>
+				{{-- endfor --}}
+{{-- 				@else
+					<tr>
+						<td colspan="5">Belum ada data</td>
+					</tr>
+					@endif --}}
+				</tbody>
+			</table>
 
-	</div>
-	@stop
+		</div>
+		@else
+		Belum ada data
+		@endif
+		@stop
