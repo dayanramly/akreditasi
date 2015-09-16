@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"AUTH",
+				"Auth::user	Auth-user"
+			],
+			[
 				"FIR",
 				"firstOrCrate"
 			],
@@ -151,7 +155,7 @@
 			"file": "app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 1980,
+				"buffer_size": 2051,
 				"line_ending": "Windows"
 			}
 		},
@@ -164,10 +168,26 @@
 			}
 		},
 		{
-			"file": "resources/views/page/home.blade.php",
+			"file": "app/Http/Controllers/PertanyaanController.php",
 			"settings":
 			{
-				"buffer_size": 1677,
+				"buffer_size": 3066,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/page/asesorhasil.blade.php",
+			"settings":
+			{
+				"buffer_size": 2833,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/page/hasil_jawaban.blade.php",
+			"settings":
+			{
+				"buffer_size": 1839,
 				"line_ending": "Windows"
 			}
 		},
@@ -175,40 +195,24 @@
 			"file": "resources/views/includes/header.blade.php",
 			"settings":
 			{
-				"buffer_size": 2721,
+				"buffer_size": 2714,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/views/page/asesorhasil.blade.php",
+			"file": "resources/views/page/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 2811,
+				"buffer_size": 1715,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "resources/views/page/edit_user.blade.php",
+			"file": "resources/views/page/login.blade.php",
 			"settings":
 			{
-				"buffer_size": 1386,
+				"buffer_size": 1178,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/page/tambah_user.blade.php",
-			"settings":
-			{
-				"buffer_size": 1263,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Http/Requests/UserRequest.php",
-			"settings":
-			{
-				"buffer_size": 706,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -256,26 +260,27 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/akreditasi/resources/views/page/pertanyaan.blade.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/page/home.blade.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/includes/header.blade.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/page/asesorhasil.blade.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/page/edit_user.blade.php",
+		"/C/xampp/htdocs/akreditasi/resources/views/page/tambah_user.blade.php",
+		"/C/xampp/htdocs/akreditasi/app/Http/Requests/UserRequest.php",
+		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/PertanyaanController.php",
 		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/HomeController.php",
 		"/C/xampp/htdocs/akreditasi/app/User.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/lihathasil.blade.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/user_list.blade.php",
 		"/C/xampp/htdocs/rekapp/app/Http/Controllers/MahasiswaController.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/page/tambah_user.blade.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/page/pertanyaan.blade.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/page/home.blade.php",
 		"/C/xampp/htdocs/akreditasi/node_modules/laravel-elixir/node_modules/browserify/test/hash/one.js",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/edit_isi_data.blade.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/lihatdata.blade.php",
 		"/C/xampp/htdocs/akreditasi/app/Http/routes.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/page/asesorhasil.blade.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/asesor.blade.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/isi_data.blade.php",
-		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/PertanyaanController.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/login.blade.php",
 		"/C/xampp/htdocs/akreditasi/resources/assets/sass/app.scss",
-		"/C/xampp/htdocs/akreditasi/resources/views/includes/header.blade.php",
-		"/C/xampp/htdocs/akreditasi/resources/views/page/edit_user.blade.php",
 		"/C/xampp/htdocs/akreditasi/app/Identitas.php",
 		"/C/xampp/htdocs/akreditasi/app/Jawaban.php",
 		"/C/xampp/htdocs/servermaps/app/routes.php",
@@ -297,7 +302,6 @@
 		"/C/xampp/htdocs/akreditasi/app/Pertanyaan.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/layouts/login.blade.php",
 		"/C/xampp/htdocs/akreditasi/app/Http/Requests/LoginRequest.php",
-		"/C/xampp/htdocs/akreditasi/app/Http/Requests/UserRequest.php",
 		"/C/xampp/htdocs/rekapp/resources/views/partials/navbar.blade.php",
 		"/C/xampp/htdocs/akreditasi/resources/views/page/change_password.blade.php",
 		"/C/xampp/htdocs/akreditasi/app/Http/Controllers/Auth/AuthController.php",
@@ -409,6 +413,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"get",
+			"$sekolah",
+			"asesorhasil",
 			"userEdit",
 			"editdata",
 			"formEdit",
@@ -533,10 +540,7 @@
 			"Pembayaran dengan transfer bank/ATM dapat dilakukan dengan rekening bank sebagai berikut:",
 			"KOnfirmasi",
 			"Silakan mengisi form sesuai",
-			"Sisa waktu",
-			"Sis",
-			"Tanggal Lahir",
-			"12"
+			"Sisa waktu"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -563,15 +567,15 @@
 					"file": "app/Http/routes.php",
 					"settings":
 					{
-						"buffer_size": 1980,
+						"buffer_size": 2051,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1530,
-								1530
+								1213,
+								1213
 							]
 						],
 						"settings":
@@ -598,8 +602,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								2698,
+								2701
 							]
 						],
 						"settings":
@@ -609,52 +613,53 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 579.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "resources/views/page/home.blade.php",
+					"file": "app/Http/Controllers/PertanyaanController.php",
 					"settings":
 					{
-						"buffer_size": 1677,
+						"buffer_size": 3066,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1183,
-								1153
+								627,
+								627
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 28.0,
+						"translation.y": 420.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "resources/views/includes/header.blade.php",
+					"file": "resources/views/page/asesorhasil.blade.php",
 					"settings":
 					{
-						"buffer_size": 2721,
+						"buffer_size": 2833,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1030,
-								981
+								2182,
+								2182
 							]
 						],
 						"settings":
@@ -663,25 +668,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 714.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "resources/views/page/asesorhasil.blade.php",
+					"file": "resources/views/page/hasil_jawaban.blade.php",
 					"settings":
 					{
-						"buffer_size": 2811,
+						"buffer_size": 1839,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2467,
-								2467
+								658,
+								658
 							]
 						],
 						"settings":
@@ -690,25 +695,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 812.0,
+						"translation.y": 98.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "resources/views/page/edit_user.blade.php",
+					"file": "resources/views/includes/header.blade.php",
 					"settings":
 					{
-						"buffer_size": 1386,
+						"buffer_size": 2714,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								585,
-								585
+								1035,
+								1035
 							]
 						],
 						"settings":
@@ -724,22 +729,18 @@
 				},
 				{
 					"buffer": 6,
-					"file": "resources/views/page/tambah_user.blade.php",
+					"file": "resources/views/page/home.blade.php",
 					"settings":
 					{
-						"buffer_size": 1263,
+						"buffer_size": 1715,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								674,
-								674
-							],
-							[
-								769,
-								769
+								191,
+								191
 							]
 						],
 						"settings":
@@ -755,25 +756,24 @@
 				},
 				{
 					"buffer": 7,
-					"file": "app/Http/Requests/UserRequest.php",
+					"file": "resources/views/page/login.blade.php",
 					"settings":
 					{
-						"buffer_size": 706,
+						"buffer_size": 1178,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								583,
-								583
+								684,
+								684
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -826,16 +826,28 @@
 		"selected_items":
 		[
 			[
+				"header",
+				"akreditasi/resources/views/includes/header.blade.php"
+			],
+			[
+				"asesorhasil",
+				"akreditasi/resources/views/page/asesorhasil.blade.php"
+			],
+			[
+				"pertanyaan",
+				"akreditasi/app/Http/Controllers/PertanyaanController.php"
+			],
+			[
+				"pertanyaa",
+				"akreditasi/app/Http/Controllers/PertanyaanController.php"
+			],
+			[
 				"edit_user",
 				"akreditasi/resources/views/page/edit_user.blade.php"
 			],
 			[
 				"homecon",
 				"akreditasi/app/Http/Controllers/HomeController.php"
-			],
-			[
-				"header",
-				"akreditasi/resources/views/includes/header.blade.php"
 			],
 			[
 				"homeco",
@@ -852,10 +864,6 @@
 			[
 				"ro",
 				"akreditasi/app/Http/routes.php"
-			],
-			[
-				"asesorhasil",
-				"akreditasi/resources/views/page/asesorhasil.blade.php"
 			],
 			[
 				"homec",
@@ -916,10 +924,6 @@
 			[
 				"pagina",
 				"akreditasi/resources/lang/en/pagination.php"
-			],
-			[
-				"pertanyaa",
-				"akreditasi/app/Http/Controllers/PertanyaanController.php"
 			],
 			[
 				"",
@@ -1172,6 +1176,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 230.0,
+	"side_bar_width": 204.0,
 	"status_bar_visible": true
 }

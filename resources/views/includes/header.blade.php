@@ -10,7 +10,7 @@
 </ul>
 <nav class="grey lighten-3 z-depth-1">
 	<div class="nav-wrapper container">
-		<a href="{{URL::to('/')}}" class="brand-logo"><img src="/assets/img/logo-sm.png"></a>
+		<a href="{{URL::to('/')}}" class="brand-logo"><img src="{{{URL::to('/assets/img/logo-sm.png')}}}"></a>
 		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 		<ul id="nav-mobile" class="right hide-on-med-and-down black-text">
 
