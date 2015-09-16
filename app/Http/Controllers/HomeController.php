@@ -94,6 +94,11 @@ class HomeController extends Controller
         $data['identitas'] = Identitas::whereuser_id($id)->first();
         $data['jawaban'] = Jawaban::whereuser_id($id)->first();
         return view('page.asesorhasil',$data);
+    }       
+    public function lihatdata($id)
+    {
+        $data['identitas'] = Identitas::whereuser_id($id)->first();
+        return view('page.lihatdata',$data);
     }      
     public function updatehasil(Requests\IsiDataRequest $request, $id)
     {
@@ -120,8 +125,10 @@ class HomeController extends Controller
     //edit user yang login sendiri
     public function userEdit(Requests\UserRequest $request, $id, $groupid)
     {
-        $users              = User::find($id);
-        $users->uname       = $request->input('uname');
+        $users = User::find($id);
+        if($users->uname != $request->input('uname')){
+            $users->uname = $request->input('uname');
+        }
         $password           = $request->input('password');
         if (!empty($password)){
             $users->password    = bcrypt($password);
@@ -136,5 +143,19 @@ class HomeController extends Controller
             return redirect('user/'.$groupid);
         }
 
+    }
+    public function formtambahuser(){
+        return view('page.tambah_user');
+    }    
+    public function tambahuser(Requests\UserRequest $request){
+        $users               = new User;
+
+        $users->uname       = $request->input('uname');
+        $password           = $request->input('password');
+        $users->password    = bcrypt($password);
+        $users->group_id    = 3;
+
+        $users->save();
+        return redirect('user/3');
     }
 }

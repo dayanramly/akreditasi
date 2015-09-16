@@ -4,7 +4,7 @@
 
 <div class="col s12 center" style="padding-top: 20px;">
 
-	<h3>SELAMAT DATANG</h3>
+	<h3>SELAMAT DATANG {{{strtoupper(Auth::user()->uname)}}}</h3>
 	<h6>INSTRUMEN AKREDITASI SEKOLAH MENENGAH KEJURUAN/MADRASAH ALIYAH KEJURUAN(SMK/MAK)</h6>
 	<div class="divider" style="margin:40px 0px;"></div>
 	@if(Auth::user()->group_id==3)

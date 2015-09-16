@@ -24,7 +24,7 @@
 					</ul>
 				</div>
 				<div class="col s2">
-					<a href="/edit/isidata" class="btn waves-effect waves-light orange darken-1" type="submit" name="action">Edit Data
+					<a href="/edit/isidata" class="btn waves-effect waves-light orange darken-1" type="submit" name="action">Edit Identitas
 					</a>
 
 				</div>

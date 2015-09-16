@@ -14,11 +14,12 @@
 		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 		<ul id="nav-mobile" class="right hide-on-med-and-down black-text">
 
-			@if(Auth::user()->group_id !=2)
-			<li><a href="{{URL::to('/isidata')}}"><i class="material-icons left">assessment</i>Pertanyaan</a></li>
+{{-- 			@if(Auth::user()->group_id !=2)
+			
 			@endif
-
+ --}}
 			@if(Auth::user()->group_id ==3)
+			<li><a href="{{URL::to('/isidata')}}"><i class="material-icons left">toc</i>Pertanyaan</a></li>
 			<li><a href="{{URL::to('/lihathasil')}}"><i class="material-icons left">assessment</i>Lihat Hasil</a></li>
 			@endif
 

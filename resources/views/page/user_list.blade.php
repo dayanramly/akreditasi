@@ -15,6 +15,9 @@
 		</thead>
 
 		<tbody>
+			@if($idAll==3)
+			<a href="{!! URL::to('tambahuser') !!}" class="btn right teal">Tambah User</a>
+			@endif
 			@foreach($userAll as $u)
 			@if ($u->group_id == $idAll)
 			<tr>
@@ -31,7 +34,7 @@
 					
 				</td>
 				<td class="right" style="padding-right:25px;">
-					<a href="{!! url('user').'/edit/'.$u->id .'/'.$idAll!!}" class="waves-effect waves-light btn orange darken-1 z-depth-0"><i class="material-icons right">assignment</i>Edit</a>
+					<a href="{!! url('user').'/edit/'.$u->id .'/'.$idAll!!}" class="waves-effect waves-light btn orange darken-1 z-depth-0"><i class="material-icons right">assignment</i>Edit Identitas</a>
 				</td>
 			</tr>
 			@endif

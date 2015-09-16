@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use App\Http\Requests\Request;
+use Route;
 
 class UserRequest extends Request
 {
@@ -23,8 +24,16 @@ class UserRequest extends Request
      */
     public function rules()
     {
-        return [
-        'uname'  =>'required|unique:user',
-        ];
+        $id = Route::input('id');
+        if (empty($id)){
+            return [
+            'uname'  =>'required|unique:user',
+            ];
+        }else{
+            return [
+            'uname'  =>'required|unique:user,id,'.$id,
+            ];    
+        }
+        
     }
 }

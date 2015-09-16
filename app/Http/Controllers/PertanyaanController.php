@@ -44,6 +44,29 @@ class PertanyaanController extends Controller
         $data['jawaban'] = $jwb;
         $data['identitas'] = $identitas;
         return view('page.pertanyaan', $data);
+    }    
+    public function lihathasil($id)
+    {
+        $db = Jawaban::whereuser_id($id)->first();
+
+        $jwb = "";
+
+        if(!empty($db->jawaban)){
+            $jawaban = json_decode($db->jawaban, true);
+            if(!empty($jawaban[$_GET['page']])){
+                $jwb = $jawaban[$_GET['page']];
+            }
+        }else{
+            $jwb="";
+        }
+        // print_r($jwb);
+        // die();
+
+        $data['pertanyaan'] = Pertanyaan::paginate(1);
+        $data['pertanyaan']->setPath(url('/pertanyaan/'.$id));
+        $data['jawaban'] = $jwb;
+        $data['id'] = $id;
+        return view('page.hasil_jawaban', $data);
     }
     
     /**

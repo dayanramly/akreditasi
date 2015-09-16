@@ -20,10 +20,11 @@
 						<li><p>Sekolah</p><span>{{{$identitas->sekolah}}}</span></li>
 						<li><p>Program Keahlian</p><span>{{{$identitas->progli}}}</span></li>
 						<li><p>Yayasan</p><span>{{{$identitas->yayasan}}}</span></li>
+						<li><p>Alamat</p><span>{{{$identitas->alamat}}}</span></li>
 					</ul>
 				</div>
 				<div class="col s2">
-					<a href="/edit/isidata" class="btn waves-effect waves-light orange darken-1" type="submit" name="action">Edit Data
+					<a href="/lihatdata/{{{$identitas->user_id}}}" class="btn waves-effect waves-light orange darken-1" type="submit" name="action">Lihat Data
 					</a>
 
 				</div>
@@ -74,15 +75,15 @@
 							<p>Belum Lengkap</p>
 							@endif
 						</td>
-						<td><a class="waves-effect waves-light btn light-green lighten-2" href="pertanyaan?page={{{$i}}}">Lihat</a></td>
+						<td><a class="waves-effect waves-light btn light-green lighten-2" href="/pertanyaan/{{{$hasil->user_id}}}?page={{{$i}}}">Lihat</a></td>
 					</tr>
 					@else
 					<tr>
 						<td>{{{$i}}}</td>
-						<td colspan="3">
+						<td colspan="4">
 							Belum Diisi
 						</td>
-						<td><a class="waves-effect waves-light btn" href="pertanyaan?page={{{$i}}}">Isi</a></td>
+						{{-- <td><a class="waves-effect waves-light btn" href="/pertanyaan?page={{{$i}}}">Isi</a></td> --}}
 					</tr>
 					@endif
 					@endfor
@@ -90,9 +91,9 @@
 			</table>
 
 			<div class="row" style="margin-top:50px;">
-				<div class="col s6 offset-s3">
-					<button type="submit" name="updatehasil" value="0">Belum Lengkap</button>
-					<button type="submit" name="updatehasil" value="1">Lengkap</button>
+				<div class="col s6 offset-s3 center">
+					<button type="submit" name="updatehasil" class="btn teal" value="0">Belum Lengkap</button>
+					<button type="submit" name="updatehasil" class="btn orange darken-4" value="1">Lengkap</button>
 				</div>
 			</div>
 		</form>

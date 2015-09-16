@@ -32,11 +32,15 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/asesor', 'HomeController@asesor');
     Route::get('/asesorhasil/{id}', 'HomeController@asesorhasil');
     Route::post('/asesorhasil/{id}', 'HomeController@updatehasil');
+    Route::get('/lihatdata/{id}', 'HomeController@lihatdata');
+    Route::get('/pertanyaan/{id}', 'PertanyaanController@lihathasil');
 
     Route::get('/lihathasil', 'HomeController@lihathasil');
     Route::get('/user/{id}', 'HomeController@user');
     Route::get('/user/edit/{id}/{groupid}', 'HomeController@formEdit');
     Route::post('/user/edit/{id}/{groupid}', 'HomeController@userEdit');
+    Route::get('/tambahuser', 'HomeController@formtambahuser');
+    Route::post('/tambahuser', 'HomeController@tambahuser');
 
 });
 
